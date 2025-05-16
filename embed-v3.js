@@ -37,6 +37,7 @@
         ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${directoryPath}/`
         : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${directoryPath}/`;
     const containerId = `id-${Math.random().toString(36).substring(2)}`;
+    loadLink(new URL('embed-v3.css', sourceURL.href).href);
     document.currentScript.insertAdjacentHTML(
         'afterend',
         `
@@ -110,20 +111,9 @@
 
     if (type === 'markdown' || type === 'ipynb') {
         const loadMarked = typeof marked != "undefined" ? Promise.resolve() : loadScript('https://cdn.jsdelivr.net/npm/marked@4.0.18/marked.min.js');
-        const loadMarkdownStyle = fetch(`https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@5.1.0/github-markdown-${isDarkStyle ? 'dark' : 'light'}.min.css`)
-            .then((response) => response.text())
-            .then((text) => {
-                insertStyle(text);
-                // TODO: `scopeCss` can not handle `github-markdown-css` well.
-                // So currently you should not mix the usage of light and dark styles for markdown or jupyter files
-                // (but use two different light (or dark) styles in a page are OK)
-                // insertStyle(scopeCss(text, '.' + styleClassName));
-            });
-        const loadKatexStyle = fetch('https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css')
-            .then((response) => response.text())
-            .then((text) => {
-                insertStyle(text.replaceAll('url(fonts/', 'url(https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/fonts/'));
-            });
+        loadLink(`https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@5.1.0/github-markdown-${isDarkStyle ? 'dark' : 'light'}.min.css`);
+        //https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css
+        loadLink(new URL('katex.min.css', sourceURL.href).href);
         promises.push(loadMarked);
 
         if (type === 'ipynb') {
@@ -253,12 +243,28 @@
 
 function loadScript(src) {
     return new Promise((resolve, reject) => {
-        const script = document.createElement('script');
-        script.src = src;
-        script.onload = resolve;
-        script.onerror = reject;
-        document.head.appendChild(script);
+        let script = document.querySelector(`head > script[src="${src}"]`)
+
+        if (!script) {
+            script = document.createElement('script');
+            script.src = src;
+            document.head.appendChild(script);
+        }
+
+        script.addEventListener("load", resolve);
+        script.addEventListener("error", reject);
     });
+}
+
+function loadLink(href) {
+    let link = document.querySelector(`head > link[href="${href}"]`)
+
+    if (!link) {
+        link = document.createElement('link');
+        link.rel = "stylesheet";
+        link.href = href
+        document.head.appendChild(link);
+    }
 }
 
 function insertStyle(text) {
