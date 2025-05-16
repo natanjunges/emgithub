@@ -29,7 +29,6 @@
     const directoryPath = pathSplit.slice(5, pathSplit.length - 1).join("/");
     const fileExtension = filePath.split('.').length > 1 ? filePath.split('.').pop() : 'txt';
     const fileURL = target.href;
-    const serviceProvider = new URL("./", sourceURL.href).href;
     const rawFileURL = fetchFromJsDelivr
         ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${filePath}`
         : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${filePath}`;
@@ -44,31 +43,31 @@
 
 <style>
     /* use where() for backward compatibility */
-    :where(#${containerId} .emgithub-file .code-area pre) {
+    :where(#${containerId} .source-embed-file .code-area pre) {
         tab-size: ${tabSize};
     }
 
     /* use where() for backward compatibility */
-    :where(#${containerId} .emgithub-file .code-area pre code.hljs) {
+    :where(#${containerId} .source-embed-file .code-area pre code.hljs) {
         max-height: ${maxHeight ? maxHeight + 'px' : 'none'};
         overflow-y: ${maxHeight ? 'auto' : 'visible'};
     }
 
     /* use where() for backward compatibility */
-    :where(#${containerId} .emgithub-file .html-area.markdown-body) {
+    :where(#${containerId} .source-embed-file .html-area.markdown-body) {
         max-height: ${maxHeight ? maxHeight + 'px' : 'none'};
         overflow-y: ${maxHeight ? 'auto' : 'visible'};
     }
 </style>
 
-<div id="${containerId}" class="emgithub-container">
+<div id="${containerId}" class="source-embed-container">
     <div class="lds-ring">
         <div></div>
         <div></div>
         <div></div>
         <div></div>
     </div>
-    <div class="emgithub-file emgithub-file-${isDarkStyle ? 'dark' : 'light'}" style="display:none;${showBorder ? '' : 'border:0'}">
+    <div class="source-embed-file source-embed-file-${isDarkStyle ? 'dark' : 'light'}" style="display:none;${showBorder ? '' : 'border:0'}">
         <div class="file-data ${styleClassName}">
             ${type === 'code' ? `<div class="code-area">
                 ${showCopy ? `<a class="copy-btn copy-btn-${isDarkStyle ? 'dark' : 'light'}" href="javascript:void(0)">Copy</a>` : ''}
@@ -79,7 +78,7 @@
         ${showFileMeta ? `<div class="file-meta file-meta-${isDarkStyle ? 'dark' : 'light'}" style="${showBorder ? '' : 'border:0'}">
             <a target="_blank" href="${rawFileURL}" style="float:right">view raw</a>
             <a target="_blank" href="${fileURL}">${decodeURIComponent(showFullPath ? filePath : pathSplit[pathSplit.length - 1])}</a>
-            delivered <span class="hide-in-phone">with ❤ </span>by <a target="_blank" href="${serviceProvider}">emgithub</a>
+            delivered <span class="hide-in-phone">with ❤ </span>by <a target="_blank" href="https://github.com/natanjunges/source-embed">source-embed</a>
         </div>`: ''}
     </div>
 </div>
@@ -237,7 +236,7 @@
         }
 
         targetDiv.querySelector(".lds-ring").style.display = "none";
-        targetDiv.querySelector(".emgithub-file").style.display = "block";
+        targetDiv.querySelector(".source-embed-file").style.display = "block";
     });
 })();
 

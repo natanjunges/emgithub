@@ -40,66 +40,66 @@
     }
 }
 
-.emgithub-file {
+.source-embed-file {
     border-radius: 6px;
     overflow: hidden;
     margin: 1em 0;
 }
 
-.emgithub-file-light {
+.source-embed-file-light {
     border: 1px solid #ccc;
 }
 
-.emgithub-file-dark {
+.source-embed-file-dark {
     border: 1px solid #555;
     background-color: #0d1117;
 }
 
 
-.emgithub-file .file-meta {
+.source-embed-file .file-meta {
     padding: 10px;
     font-size: 12px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-.emgithub-file .file-meta-light {
+.source-embed-file .file-meta-light {
     color: #586069;
     background-color: #f7f7f7;
     border-top: 1px solid #ccc;
 }
 
-.emgithub-file .file-meta-dark {
+.source-embed-file .file-meta-dark {
     color: #f7f7f7;
     background-color: #586069;
     border-top: 1px solid #555;
 }
 
-.emgithub-file .file-meta a {
+.source-embed-file .file-meta a {
     font-weight: 600;
     text-decoration: none;
     border: 0;
 }
 
-.emgithub-file .file-meta-light a {
+.source-embed-file .file-meta-light a {
     color: #666;
 }
 
-.emgithub-file .file-meta-dark a {
+.source-embed-file .file-meta-dark a {
     color: #fff;
 }
 
 /* hide content for small device */
 @media (max-width: 575.98px) {
-    .emgithub-file .hide-in-phone {
+    .source-embed-file .hide-in-phone {
         display: none;
     }
 }
 
-.emgithub-file .code-area {
+.source-embed-file .code-area {
     position: relative;
 }
 
-.emgithub-file .code-area .copy-btn {
+.source-embed-file .code-area .copy-btn {
     display: none;
     border-radius: 3px;
     font: bold 13px monospace;
@@ -111,48 +111,48 @@
     padding: 0.3rem;
 }
 
-.emgithub-file:hover .code-area .copy-btn {
+.source-embed-file:hover .code-area .copy-btn {
     display: block;
 }
 
-.emgithub-file .code-area .copy-btn-light {
+.source-embed-file .code-area .copy-btn-light {
     color: #586069;
     background-color: #f7f7f7;
     border: 1px solid #ccc;
 }
 
-.emgithub-file .code-area .copy-btn-dark {
+.source-embed-file .code-area .copy-btn-dark {
     color: #f7f7f7;
     background-color: #586069;
     border: 1px solid #555;
 }
 
-.emgithub-file .code-area .copy-btn-light:hover {
+.source-embed-file .code-area .copy-btn-light:hover {
     color: #f7f7f7;
     background-color: #586069;
 }
 
-.emgithub-file .code-area .copy-btn-dark:hover {
+.source-embed-file .code-area .copy-btn-dark:hover {
     color: #586069;
     background-color: #f7f7f7;
 }
 
-.emgithub-file .code-area .copy-btn-light:active {
+.source-embed-file .code-area .copy-btn-light:active {
     /* darken #586069 by 20% https://www.cssfontstack.com/oldsites/hexcolortool/ */
     background-color: #252d36;
 }
 
-.emgithub-file .code-area .copy-btn-dark:active {
+.source-embed-file .code-area .copy-btn-dark:active {
     /* darken #f7f7f7 by 20% */
     background-color: #c4c4c4;
 }
 
-.emgithub-file .code-area pre {
+.source-embed-file .code-area pre {
     margin: 0;
     padding: 0;
 }
 
-.emgithub-file .code-area .hljs-ln-numbers {
+.source-embed-file .code-area .hljs-ln-numbers {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -165,45 +165,45 @@
     vertical-align: top;
 }
 
-.emgithub-file .code-area td.hljs-ln-numbers {
+.source-embed-file .code-area td.hljs-ln-numbers {
     padding-right: 1rem;
 }
 
-.emgithub-file .code-area td.hljs-ln-line {
+.source-embed-file .code-area td.hljs-ln-line {
     line-height: 21px;
     font-size: 12px;
     font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
     border: 0;
 }
 
-.emgithub-file .code-area table.hljs-ln {
+.source-embed-file .code-area table.hljs-ln {
     border: 0;
     margin: 0;
 }
 
-.emgithub-file .code-area pre code.hljs {
+.source-embed-file .code-area pre code.hljs {
     padding: 0.8em;
     box-sizing: border-box;
 }
 
-.emgithub-file .code-area .hide-line-numbers .hljs-ln-numbers {
+.source-embed-file .code-area .hide-line-numbers .hljs-ln-numbers {
     display: none;
 }
 
-.emgithub-file .html-area pre {
+.source-embed-file .html-area pre {
     padding: 0;
 }
 
-.emgithub-file .html-area .nb-output pre {
+.source-embed-file .html-area .nb-output pre {
     padding: 16px;
 }
 
-.emgithub-file .html-area .nb-cell {
+.source-embed-file .html-area .nb-cell {
     position: relative;
 }
 
-.emgithub-file .html-area .nb-output:before,
-.emgithub-file .html-area .nb-input:before {
+.source-embed-file .html-area .nb-output:before,
+.source-embed-file .html-area .nb-input:before {
     position: absolute;
     font-family: monospace;
     color: #999;
@@ -213,15 +213,15 @@
     font-size: 13px;
 }
 
-.emgithub-file .html-area .nb-input:before {
+.source-embed-file .html-area .nb-input:before {
     content: "In [" attr(data-prompt-number) "]:";
 }
 
-.emgithub-file .html-area .nb-output:before {
+.source-embed-file .html-area .nb-output:before {
     content: "Out [" attr(data-prompt-number) "]:";
 }
 
-.emgithub-file .html-area.markdown-body {
+.source-embed-file .html-area.markdown-body {
     box-sizing: border-box;
     min-width: 200px;
     max-width: 980px;
@@ -230,12 +230,12 @@
 }
 
 /* Reserve space for "In [1]", "Out [1]" */
-.emgithub-file .html-area.markdown-body .nb-notebook {
+.source-embed-file .html-area.markdown-body .nb-notebook {
     padding-left: 65px;
 }
 
 @media (max-width: 767px) {
-    .emgithub-file .html-area.markdown-body {
+    .source-embed-file .html-area.markdown-body {
         padding: 15px;
     }
 }
