@@ -36,7 +36,7 @@
         ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${directoryPath}/`
         : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${directoryPath}/`;
     const containerId = `id-${Math.random().toString(36).substring(2)}`;
-    loadLink(new URL('embed-v3.css', sourceURL.href).href);
+    loadLink('https://cdn.jsdelivr.net/gh/natanjunges/source-embed@main/embed-v3.css');
     document.currentScript.insertAdjacentHTML(
         'afterend',
         `
@@ -102,14 +102,14 @@
     // hljs-num should be loaded only after hljs is loaded
     const loadHLJSNum = loadHLJS.then(() => (typeof hljs.lineNumbersBlock != "undefined" ? Promise.resolve() : loadScript(HLJSNumURL)));
     //https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/${style}.min.css
-    loadLink(new URL(`styles/${style}.min.css`, sourceURL.href).href)
+    loadLink(`https://cdn.jsdelivr.net/gh/natanjunges/source-embed@main/styles/${style}.min.css`);
     promises.push(loadHLJSNum);
 
     if (type === 'markdown' || type === 'ipynb') {
         const loadMarked = typeof marked != "undefined" ? Promise.resolve() : loadScript('https://cdn.jsdelivr.net/npm/marked@4.0.18/marked.min.js');
         loadLink(`https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@5.1.0/github-markdown-${isDarkStyle ? 'dark' : 'light'}.min.css`);
         //https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css
-        loadLink(new URL('katex.min.css', sourceURL.href).href);
+        loadLink('https://cdn.jsdelivr.net/gh/natanjunges/source-embed@main/katex.min.css');
         promises.push(loadMarked);
 
         if (type === 'ipynb') {
