@@ -101,11 +101,8 @@
     // Always use hljs-num even if showLineNumbers is false for a consistent display
     // hljs-num should be loaded only after hljs is loaded
     const loadHLJSNum = loadHLJS.then(() => (typeof hljs.lineNumbersBlock != "undefined" ? Promise.resolve() : loadScript(HLJSNumURL)));
-    const loadHLJSStyle = fetch(`https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/${style}.min.css`)
-        .then((response) => response.text())
-        .then((text) => {
-            insertStyle(scopeCss(text, '.' + styleClassName));
-        });
+    //https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/${style}.min.css
+    loadLink(new URL(`styles/${style}.min.css`, sourceURL.href).href)
     promises.push(loadHLJSNum);
 
     if (type === 'markdown' || type === 'ipynb') {
@@ -266,12 +263,6 @@ function loadLink(href) {
     }
 }
 
-function insertStyle(text) {
-    const styleElement = document.createElement('style');
-    styleElement.textContent = text;
-    document.head.appendChild(styleElement);
-}
-
 // https://stackoverflow.com/questions/400212/how-do-i-copy-to-the-clipboard-in-javascript
 function copyTextToClipboard(text) {
     if (!navigator.clipboard) {
@@ -297,31 +288,4 @@ function fallbackCopyTextToClipboard(text) {
     }
 
     document.body.removeChild(textArea);
-}
-
-function scopeCss(styleText, scopeSelector) {
-    // Limit the scope of css by prepending a selector in each rule
-    // based on https://stackoverflow.com/questions/3326494/parsing-css-in-javascript-jquery
-    const doc = document.implementation.createHTMLDocument("");
-    const styleElement = document.createElement("style");
-    styleElement.textContent = styleText;
-    doc.head.appendChild(styleElement);
-    const rules = [];
-
-    for (const rule of styleElement.sheet.cssRules) {
-        if (rule.constructor.name === 'CSSStyleRule') {
-            const cssText = rule.cssText;
-            const delimiterIndex = cssText.indexOf('{');
-            const cssSelector = cssText.slice(0, delimiterIndex);
-            const cssBody = cssText.slice(delimiterIndex);
-            const cssSelectorPrepended = cssSelector.split(',').map(s => `${scopeSelector} ${s.trim()}`).join(',');
-            rules.push(`${cssSelectorPrepended} ${cssBody}`);
-        } else if (rule.constructor.name === 'CSSMediaRule') {
-            console.error("NotImplementedError", rule);
-        } else {
-            console.error("NotImplementedError", rule);
-        }
-    }
-
-    return rules.join('\n');
 }
