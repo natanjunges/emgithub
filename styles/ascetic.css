@@ -1,0 +1,42 @@
+/*
+
+Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.hljs-style-ascetic .hljs {
+  background: white;
+  color: black;
+}
+
+.hljs-style-ascetic .hljs-string,
+.hljs-style-ascetic .hljs-variable,
+.hljs-style-ascetic .hljs-template-variable,
+.hljs-style-ascetic .hljs-symbol,
+.hljs-style-ascetic .hljs-bullet,
+.hljs-style-ascetic .hljs-section,
+.hljs-style-ascetic .hljs-addition,
+.hljs-style-ascetic .hljs-attribute,
+.hljs-style-ascetic .hljs-link {
+  color: #888;
+}
+
+.hljs-style-ascetic .hljs-comment,
+.hljs-style-ascetic .hljs-quote,
+.hljs-style-ascetic .hljs-meta,
+.hljs-style-ascetic .hljs-deletion {
+  color: #ccc;
+}
+
+.hljs-style-ascetic .hljs-keyword,
+.hljs-style-ascetic .hljs-selector-tag,
+.hljs-style-ascetic .hljs-section,
+.hljs-style-ascetic .hljs-name,
+.hljs-style-ascetic .hljs-type,
+.hljs-style-ascetic .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-ascetic .hljs-emphasis {
+  font-style: italic;
+}

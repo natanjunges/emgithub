@@ -1,0 +1,71 @@
+/* Tomorrow Night Blue Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+
+/* Tomorrow Comment */
+.hljs-style-tomorrow-night-blue .hljs-comment,
+.hljs-style-tomorrow-night-blue .hljs-quote {
+  color: #7285b7;
+}
+
+/* Tomorrow Red */
+.hljs-style-tomorrow-night-blue .hljs-variable,
+.hljs-style-tomorrow-night-blue .hljs-template-variable,
+.hljs-style-tomorrow-night-blue .hljs-tag,
+.hljs-style-tomorrow-night-blue .hljs-name,
+.hljs-style-tomorrow-night-blue .hljs-selector-id,
+.hljs-style-tomorrow-night-blue .hljs-selector-class,
+.hljs-style-tomorrow-night-blue .hljs-regexp,
+.hljs-style-tomorrow-night-blue .hljs-deletion {
+  color: #ff9da4;
+}
+
+/* Tomorrow Orange */
+.hljs-style-tomorrow-night-blue .hljs-number,
+.hljs-style-tomorrow-night-blue .hljs-built_in,
+.hljs-style-tomorrow-night-blue .hljs-literal,
+.hljs-style-tomorrow-night-blue .hljs-type,
+.hljs-style-tomorrow-night-blue .hljs-params,
+.hljs-style-tomorrow-night-blue .hljs-meta,
+.hljs-style-tomorrow-night-blue .hljs-link {
+  color: #ffc58f;
+}
+
+/* Tomorrow Yellow */
+.hljs-style-tomorrow-night-blue .hljs-attribute {
+  color: #ffeead;
+}
+
+/* Tomorrow Green */
+.hljs-style-tomorrow-night-blue .hljs-string,
+.hljs-style-tomorrow-night-blue .hljs-symbol,
+.hljs-style-tomorrow-night-blue .hljs-bullet,
+.hljs-style-tomorrow-night-blue .hljs-addition {
+  color: #d1f1a9;
+}
+
+/* Tomorrow Blue */
+.hljs-style-tomorrow-night-blue .hljs-title,
+.hljs-style-tomorrow-night-blue .hljs-section {
+  color: #bbdaff;
+}
+
+/* Tomorrow Purple */
+.hljs-style-tomorrow-night-blue .hljs-keyword,
+.hljs-style-tomorrow-night-blue .hljs-selector-tag {
+  color: #ebbbff;
+}
+
+.hljs-style-tomorrow-night-blue .hljs {
+  background: #002451;
+  color: white;
+}
+
+.hljs-style-tomorrow-night-blue .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-tomorrow-night-blue .hljs-strong {
+  font-weight: bold;
+}

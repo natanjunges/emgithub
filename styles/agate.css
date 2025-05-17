@@ -1,0 +1,139 @@
+/*!
+   Theme: Agate
+   Author: (c) Taufik Nurrohman <hi@taufik-nurrohman.com>
+   Maintainer: @taufik-nurrohman
+   Updated: 2021-04-24
+
+   #333
+   #62c8f3
+   #7bd694
+   #888
+   #a2fca2
+   #ade5fc
+   #b8d8a2
+   #c6b4f0
+   #d36363
+   #fc9b9b
+   #fcc28c
+   #ffa
+   #fff
+*/
+
+.hljs-style-agate .hljs {
+  background: #333;
+  color: #fff;
+}
+
+.hljs-style-agate .hljs-doctag,
+.hljs-style-agate .hljs-meta-keyword,
+.hljs-style-agate .hljs-name,
+.hljs-style-agate .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-agate .hljs-code,
+.hljs-style-agate .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-agate .hljs-section,
+.hljs-style-agate .hljs-tag {
+  color: #62c8f3;
+}
+
+.hljs-style-agate .hljs-selector-class,
+.hljs-style-agate .hljs-selector-id,
+.hljs-style-agate .hljs-template-variable,
+.hljs-style-agate .hljs-variable {
+  color: #ade5fc;
+}
+
+.hljs-style-agate .hljs-meta-string,
+.hljs-style-agate .hljs-string {
+  color: #a2fca2;
+}
+
+.hljs-style-agate .hljs-attr,
+.hljs-style-agate .hljs-quote,
+.hljs-style-agate .hljs-selector-attr {
+  color: #7bd694;
+}
+
+.hljs-style-agate .hljs-tag .hljs-attr {
+  color: inherit;
+}
+
+.hljs-style-agate .hljs-attribute,
+.hljs-style-agate .hljs-title,
+.hljs-style-agate .hljs-type {
+  color: #ffa;
+}
+
+.hljs-style-agate .hljs-number,
+.hljs-style-agate .hljs-symbol {
+  color: #d36363;
+}
+
+.hljs-style-agate .hljs-bullet,
+.hljs-style-agate .hljs-template-tag {
+  color: #b8d8a2;
+}
+
+.hljs-style-agate .hljs-built_in,
+.hljs-style-agate .hljs-keyword,
+.hljs-style-agate .hljs-literal,
+.hljs-style-agate .hljs-selector-tag {
+  color: #fcc28c;
+}
+
+.hljs-style-agate .hljs-code,
+.hljs-style-agate .hljs-comment,
+.hljs-style-agate .hljs-formula {
+  color: #888;
+}
+
+.hljs-style-agate .hljs-link,
+.hljs-style-agate .hljs-selector-pseudo,
+.hljs-style-agate .hljs-regexp {
+  color: #c6b4f0;
+}
+
+.hljs-style-agate .hljs-meta {
+  color: #fc9b9b;
+}
+
+.hljs-style-agate .hljs-deletion {
+  background: #fc9b9b;
+  color: #333;
+}
+
+.hljs-style-agate .hljs-addition {
+  background: #a2fca2;
+  color: #333;
+}
+
+/* Purposely ignored */
+.hljs-style-agate .hljs-operator,
+.hljs-style-agate .hljs-params,
+.hljs-style-agate .hljs-property,
+.hljs-style-agate .hljs-punctuation {}
+
+.hljs-style-agate .hljs-subst {
+  color: #fff;
+}
+
+/* This applies only if HTML auto-merging plugin is enabled by user (#2889) */
+.hljs-style-agate .hljs a {
+  color: inherit;
+}
+
+.hljs-style-agate .hljs a:focus,
+.hljs-style-agate .hljs a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.hljs-style-agate .hljs mark {
+  background: #555;
+  color: inherit;
+}

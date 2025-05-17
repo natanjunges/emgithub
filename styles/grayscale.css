@@ -1,0 +1,98 @@
+/*
+
+grayscale style (c) MY Sun <simonmysun@gmail.com>
+
+*/
+
+.hljs-style-grayscale .hljs {
+  color: #333;
+  background: #fff;
+}
+
+.hljs-style-grayscale .hljs-comment,
+.hljs-style-grayscale .hljs-quote {
+  color: #777;
+  font-style: italic;
+}
+
+.hljs-style-grayscale .hljs-keyword,
+.hljs-style-grayscale .hljs-selector-tag,
+.hljs-style-grayscale .hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-style-grayscale .hljs-number,
+.hljs-style-grayscale .hljs-literal {
+  color: #777;
+}
+
+.hljs-style-grayscale .hljs-string,
+.hljs-style-grayscale .hljs-doctag,
+.hljs-style-grayscale .hljs-formula {
+  color: #333;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAJ0lEQVQIW2O8e/fufwYGBgZBQUEQxcCIIfDu3Tuwivfv30NUoAsAALHpFMMLqZlPAAAAAElFTkSuQmCC) repeat;
+}
+
+.hljs-style-grayscale .hljs-title,
+.hljs-style-grayscale .hljs-section,
+.hljs-style-grayscale .hljs-selector-id {
+  color: #000;
+  font-weight: bold;
+}
+
+.hljs-style-grayscale .hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-style-grayscale .hljs-title.class_,
+.hljs-style-grayscale .hljs-class .hljs-title,
+.hljs-style-grayscale .hljs-type,
+.hljs-style-grayscale .hljs-name {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-style-grayscale .hljs-tag {
+  color: #333;
+}
+
+.hljs-style-grayscale .hljs-regexp {
+    color: #333;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAPUlEQVQYV2NkQAN37979r6yszIgujiIAU4RNMVwhuiQ6H6wQl3XI4oy4FMHcCJPHcDS6J2A2EqUQpJhohQDexSef15DBCwAAAABJRU5ErkJggg==) repeat;
+}
+
+.hljs-style-grayscale .hljs-symbol,
+.hljs-style-grayscale .hljs-bullet,
+.hljs-style-grayscale .hljs-link {
+  color: #000;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAKElEQVQIW2NkQAO7d+/+z4gsBhJwdXVlhAvCBECKwIIwAbhKZBUwBQA6hBpm5efZsgAAAABJRU5ErkJggg==) repeat;
+}
+
+.hljs-style-grayscale .hljs-built_in {
+  color: #000;
+  text-decoration: underline;
+}
+
+.hljs-style-grayscale .hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-style-grayscale .hljs-deletion {
+  color: #fff;
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAADCAYAAABS3WWCAAAAE0lEQVQIW2MMDQ39zzhz5kwIAQAyxweWgUHd1AAAAABJRU5ErkJggg==) repeat;
+}
+
+.hljs-style-grayscale .hljs-addition {
+  color: #000;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAALUlEQVQYV2N89+7dfwYk8P79ewZBQUFkIQZGOiu6e/cuiptQHAPl0NtNxAQBAM97Oejj3Dg7AAAAAElFTkSuQmCC) repeat;
+}
+
+.hljs-style-grayscale .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-grayscale .hljs-strong {
+  font-weight: bold;
+}

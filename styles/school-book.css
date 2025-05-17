@@ -1,0 +1,61 @@
+/*
+
+School Book style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.hljs-style-school-book .hljs {
+  color: #3e5915;
+  background:#f6f5b2;
+}
+
+.hljs-style-school-book .hljs-keyword,
+.hljs-style-school-book .hljs-selector-tag,
+.hljs-style-school-book .hljs-literal {
+  color:#005599;
+  font-weight:bold;
+}
+
+.hljs-style-school-book .hljs-subst {
+  color: #3e5915;
+}
+
+.hljs-style-school-book .hljs-string,
+.hljs-style-school-book .hljs-title,
+.hljs-style-school-book .hljs-section,
+.hljs-style-school-book .hljs-type,
+.hljs-style-school-book .hljs-symbol,
+.hljs-style-school-book .hljs-bullet,
+.hljs-style-school-book .hljs-attribute,
+.hljs-style-school-book .hljs-built_in,
+.hljs-style-school-book .hljs-addition,
+.hljs-style-school-book .hljs-variable,
+.hljs-style-school-book .hljs-template-tag,
+.hljs-style-school-book .hljs-template-variable,
+.hljs-style-school-book .hljs-link {
+  color: #2c009f;
+}
+
+.hljs-style-school-book .hljs-comment,
+.hljs-style-school-book .hljs-quote,
+.hljs-style-school-book .hljs-deletion,
+.hljs-style-school-book .hljs-meta {
+  color: #e60415;
+}
+
+.hljs-style-school-book .hljs-keyword,
+.hljs-style-school-book .hljs-selector-tag,
+.hljs-style-school-book .hljs-literal,
+.hljs-style-school-book .hljs-doctag,
+.hljs-style-school-book .hljs-title,
+.hljs-style-school-book .hljs-section,
+.hljs-style-school-book .hljs-type,
+.hljs-style-school-book .hljs-name,
+.hljs-style-school-book .hljs-selector-id,
+.hljs-style-school-book .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-school-book .hljs-emphasis {
+  font-style: italic;
+}

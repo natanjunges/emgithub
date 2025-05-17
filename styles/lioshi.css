@@ -1,0 +1,80 @@
+/* lioshi Theme */
+/* Original theme - https://github.com/lioshi/vscode-lioshi-theme */
+
+.hljs-style-lioshi .hljs {
+  background: #303030;
+  color: #c5c8c6;
+}
+
+/* Comment */
+.hljs-style-lioshi .hljs-comment {
+  color: #8d8d8d;
+}
+
+/* quote */
+.hljs-style-lioshi .hljs-quote {
+  color: #b3c7d8;
+}
+
+/* Red */
+.hljs-style-lioshi .hljs-variable,
+.hljs-style-lioshi .hljs-template-variable,
+.hljs-style-lioshi .hljs-tag,
+.hljs-style-lioshi .hljs-name,
+.hljs-style-lioshi .hljs-selector-id,
+.hljs-style-lioshi .hljs-selector-class,
+.hljs-style-lioshi .hljs-regexp,
+.hljs-style-lioshi .hljs-deletion {
+  color: #cc6666;
+}
+
+/* Orange */
+.hljs-style-lioshi .hljs-number,
+.hljs-style-lioshi .hljs-built_in,
+.hljs-style-lioshi .hljs-literal,
+.hljs-style-lioshi .hljs-type,
+.hljs-style-lioshi .hljs-subst
+.hljs-style-lioshi .hljs-link {
+  color: #de935f;
+}
+
+/* Yellow */
+.hljs-style-lioshi .hljs-attribute {
+  color: #f0c674;
+}
+
+/* Green */
+.hljs-style-lioshi .hljs-string,
+.hljs-style-lioshi .hljs-bullet,
+.hljs-style-lioshi .hljs-params,
+.hljs-style-lioshi .hljs-addition {
+  color: #b5bd68;
+}
+
+/* Purple */
+.hljs-style-lioshi .hljs-selector-tag,
+.hljs-style-lioshi .hljs-keyword,
+.hljs-style-lioshi .hljs-function,
+.hljs-style-lioshi .hljs-class {
+  color: #be94bb;
+}
+
+/* Blue */
+.hljs-style-lioshi .hljs-title,
+.hljs-style-lioshi .hljs-meta,
+.hljs-style-lioshi .hljs-section {
+  color: #81a2be;
+}
+
+/* Purple light */
+.hljs-style-lioshi .hljs-symbol {
+  color: #dbc4d9;
+}
+
+.hljs-style-lioshi .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-lioshi .hljs-strong {
+  font-weight: bold;
+}

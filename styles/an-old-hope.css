@@ -1,0 +1,87 @@
+/*!
+  Theme: An Old Hope – Star Wars Syntax
+  Author: (c) Gustavo Costa <gusbemacbe@gmail.com>
+  Maintainer: @gusbemacbe
+
+  Original theme - Ocean Dark Theme – by https://github.com/gavsiu
+  Based on Jesse Leite's Atom syntax theme 'An Old Hope'
+    https://github.com/JesseLeite/an-old-hope-syntax-atom
+*/
+
+/* Millenium Falcon */
+.hljs-style-an-old-hope .hljs
+{
+  background: #1C1D21;
+  color: #c0c5ce;
+}
+
+/* Death Star Comment */
+.hljs-style-an-old-hope .hljs-comment,
+.hljs-style-an-old-hope .hljs-quote
+{
+  color: #B6B18B;
+}
+
+/* Darth Vader */
+.hljs-style-an-old-hope .hljs-variable,
+.hljs-style-an-old-hope .hljs-template-variable,
+.hljs-style-an-old-hope .hljs-tag,
+.hljs-style-an-old-hope .hljs-name,
+.hljs-style-an-old-hope .hljs-selector-id,
+.hljs-style-an-old-hope .hljs-selector-class,
+.hljs-style-an-old-hope .hljs-regexp,
+.hljs-style-an-old-hope .hljs-deletion
+{
+  color: #EB3C54;
+}
+
+/* Threepio */
+.hljs-style-an-old-hope .hljs-number,
+.hljs-style-an-old-hope .hljs-built_in,
+.hljs-style-an-old-hope .hljs-literal,
+.hljs-style-an-old-hope .hljs-type,
+.hljs-style-an-old-hope .hljs-params,
+.hljs-style-an-old-hope .hljs-meta,
+.hljs-style-an-old-hope .hljs-link
+{
+  color: #E7CE56;
+}
+
+/* Luke Skywalker */
+.hljs-style-an-old-hope .hljs-attribute
+{
+  color: #EE7C2B;
+}
+
+/* Obi Wan Kenobi */
+.hljs-style-an-old-hope .hljs-string,
+.hljs-style-an-old-hope .hljs-symbol,
+.hljs-style-an-old-hope .hljs-bullet,
+.hljs-style-an-old-hope .hljs-addition
+{
+  color: #4FB4D7;
+}
+
+/* Yoda */
+.hljs-style-an-old-hope .hljs-title,
+.hljs-style-an-old-hope .hljs-section
+{
+  color: #78BB65;
+}
+
+/* Mace Windu */
+.hljs-style-an-old-hope .hljs-keyword,
+.hljs-style-an-old-hope .hljs-selector-tag
+{
+  color: #B45EA4;
+}
+
+.hljs-style-an-old-hope .hljs-emphasis
+{
+  font-style: italic;
+}
+
+.hljs-style-an-old-hope .hljs-strong
+{
+  font-weight: bold;
+}

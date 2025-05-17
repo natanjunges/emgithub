@@ -1,0 +1,93 @@
+/*
+Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
+*/
+
+.hljs-style-docco .hljs {
+  color: #000;
+  background: #f8f8ff;
+}
+
+.hljs-style-docco .hljs-comment,
+.hljs-style-docco .hljs-quote {
+  color: #408080;
+  font-style: italic;
+}
+
+.hljs-style-docco .hljs-keyword,
+.hljs-style-docco .hljs-selector-tag,
+.hljs-style-docco .hljs-literal,
+.hljs-style-docco .hljs-subst {
+  color: #954121;
+}
+
+.hljs-style-docco .hljs-number {
+  color: #40a070;
+}
+
+.hljs-style-docco .hljs-string,
+.hljs-style-docco .hljs-doctag {
+  color: #219161;
+}
+
+.hljs-style-docco .hljs-selector-id,
+.hljs-style-docco .hljs-selector-class,
+.hljs-style-docco .hljs-section,
+.hljs-style-docco .hljs-type {
+  color: #19469d;
+}
+
+.hljs-style-docco .hljs-params {
+  color: #00f;
+}
+
+.hljs-style-docco .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-style-docco .hljs-tag,
+.hljs-style-docco .hljs-name,
+.hljs-style-docco .hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-style-docco .hljs-variable,
+.hljs-style-docco .hljs-template-variable {
+  color: #008080;
+}
+
+.hljs-style-docco .hljs-regexp,
+.hljs-style-docco .hljs-link {
+  color: #b68;
+}
+
+.hljs-style-docco .hljs-symbol,
+.hljs-style-docco .hljs-bullet {
+  color: #990073;
+}
+
+.hljs-style-docco .hljs-built_in {
+  color: #0086b3;
+}
+
+.hljs-style-docco .hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-style-docco .hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-style-docco .hljs-addition {
+  background: #dfd;
+}
+
+.hljs-style-docco .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-docco .hljs-strong {
+  font-weight: bold;
+}

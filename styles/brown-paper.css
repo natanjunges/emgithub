@@ -1,0 +1,61 @@
+/*
+
+Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
+
+*/
+
+.hljs-style-brown-paper .hljs {
+  color: #363c69;
+  background:#b7a68e url(https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/brown-papersq.png);
+}
+
+.hljs-style-brown-paper .hljs-keyword,
+.hljs-style-brown-paper .hljs-selector-tag,
+.hljs-style-brown-paper .hljs-literal {
+  color:#005599;
+  font-weight:bold;
+}
+
+.hljs-style-brown-paper .hljs-subst {
+  /* default */
+}
+
+.hljs-style-brown-paper .hljs-string,
+.hljs-style-brown-paper .hljs-title,
+.hljs-style-brown-paper .hljs-section,
+.hljs-style-brown-paper .hljs-type,
+.hljs-style-brown-paper .hljs-attribute,
+.hljs-style-brown-paper .hljs-symbol,
+.hljs-style-brown-paper .hljs-bullet,
+.hljs-style-brown-paper .hljs-built_in,
+.hljs-style-brown-paper .hljs-addition,
+.hljs-style-brown-paper .hljs-variable,
+.hljs-style-brown-paper .hljs-template-tag,
+.hljs-style-brown-paper .hljs-template-variable,
+.hljs-style-brown-paper .hljs-link,
+.hljs-style-brown-paper .hljs-name {
+  color: #2c009f;
+}
+
+.hljs-style-brown-paper .hljs-comment,
+.hljs-style-brown-paper .hljs-quote,
+.hljs-style-brown-paper .hljs-meta,
+.hljs-style-brown-paper .hljs-deletion {
+  color: #802022;
+}
+
+.hljs-style-brown-paper .hljs-keyword,
+.hljs-style-brown-paper .hljs-selector-tag,
+.hljs-style-brown-paper .hljs-literal,
+.hljs-style-brown-paper .hljs-doctag,
+.hljs-style-brown-paper .hljs-title,
+.hljs-style-brown-paper .hljs-section,
+.hljs-style-brown-paper .hljs-type,
+.hljs-style-brown-paper .hljs-name,
+.hljs-style-brown-paper .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-brown-paper .hljs-emphasis {
+  font-style: italic;
+}

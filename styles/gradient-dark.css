@@ -1,0 +1,119 @@
+/*
+
+Gradient Dark (c) Samia Ali <samiaab1990@gmail.com>
+
+*/
+
+.hljs-style-gradient-dark .hljs
+{
+background-color: #652487;
+background-image: linear-gradient(160deg, #652487 0%, #443ac3 35%, #0174b7 68%, #04988e 100%);
+color:#e7e4eb;
+}
+
+.hljs-style-gradient-dark .hljs-subtr{
+  color:#e7e4eb;
+}
+
+.hljs-style-gradient-dark .hljs-doctag,
+.hljs-style-gradient-dark .hljs-meta,
+.hljs-style-gradient-dark .hljs-comment,
+.hljs-style-gradient-dark .hljs-quote
+{
+  color:#af8dd9;
+}
+
+.hljs-style-gradient-dark .hljs-selector-tag,
+.hljs-style-gradient-dark .hljs-selector-id,
+.hljs-style-gradient-dark .hljs-template-tag,
+.hljs-style-gradient-dark .hljs-regexp,
+.hljs-style-gradient-dark .hljs-attr,
+.hljs-style-gradient-dark .hljs-tag
+{
+  color:#AEFBFF;
+}
+
+.hljs-style-gradient-dark .hljs-params,
+.hljs-style-gradient-dark .hljs-selector-class,
+.hljs-style-gradient-dark .hljs-bullet
+
+{
+  color:#F19FFF;
+
+}
+
+.hljs-style-gradient-dark .hljs-keyword,
+.hljs-style-gradient-dark .hljs-section,
+.hljs-style-gradient-dark .hljs-meta .hljs-keyword,
+
+.hljs-style-gradient-dark .hljs-symbol,
+.hljs-style-gradient-dark .hljs-type
+
+{
+
+  color:#17fc95;
+}
+
+.hljs-style-gradient-dark .hljs-addition,
+.hljs-style-gradient-dark .hljs-number,
+.hljs-style-gradient-dark .hljs-link
+{
+  color:#C5FE00;
+}
+
+
+.hljs-style-gradient-dark .hljs-string
+{
+  color: #38c0ff;
+}
+
+
+.hljs-style-gradient-dark .hljs-attribute,
+.hljs-style-gradient-dark .hljs-addition
+{
+  color:#E7FF9F;
+}
+
+.hljs-style-gradient-dark .hljs-variable,
+.hljs-style-gradient-dark .hljs-template-variable
+
+{
+  color:#E447FF;
+}
+
+.hljs-style-gradient-dark .hljs-built_in,
+.hljs-style-gradient-dark .hljs-formula,
+.hljs-style-gradient-dark .hljs-name,
+.hljs-style-gradient-dark .hljs-title,
+.hljs-style-gradient-dark .hljs-class,
+.hljs-style-gradient-dark .hljs-function
+{
+  color: #FFC800;
+
+}
+
+.hljs-style-gradient-dark .hljs-selector-pseudo,
+.hljs-style-gradient-dark .hljs-deletion,
+.hljs-style-gradient-dark .hljs-literal
+{
+  color:#FF9E44;
+
+}
+
+.hljs-style-gradient-dark .hljs-emphasis,
+.hljs-style-gradient-dark .hljs-quote
+{
+  font-style:italic;
+}
+
+.hljs-style-gradient-dark .hljs-params,
+.hljs-style-gradient-dark .hljs-selector-class,
+.hljs-style-gradient-dark .hljs-strong,
+.hljs-style-gradient-dark .hljs-selector-tag,
+.hljs-style-gradient-dark .hljs-selector-id,
+.hljs-style-gradient-dark .hljs-template-tag,
+.hljs-style-gradient-dark .hljs-section,
+.hljs-style-gradient-dark .hljs-keyword
+{
+  font-weight:bold;
+}

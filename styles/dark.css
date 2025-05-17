@@ -1,0 +1,61 @@
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.hljs-style-dark .hljs {
+  color: #ddd;
+  background: #303030;
+}
+
+.hljs-style-dark .hljs-keyword,
+.hljs-style-dark .hljs-selector-tag,
+.hljs-style-dark .hljs-literal,
+.hljs-style-dark .hljs-section,
+.hljs-style-dark .hljs-link {
+  color: white;
+}
+
+
+.hljs-style-dark .hljs-subst {
+  /* default */
+}
+
+.hljs-style-dark .hljs-string,
+.hljs-style-dark .hljs-title,
+.hljs-style-dark .hljs-name,
+.hljs-style-dark .hljs-type,
+.hljs-style-dark .hljs-attribute,
+.hljs-style-dark .hljs-symbol,
+.hljs-style-dark .hljs-bullet,
+.hljs-style-dark .hljs-built_in,
+.hljs-style-dark .hljs-addition,
+.hljs-style-dark .hljs-variable,
+.hljs-style-dark .hljs-template-tag,
+.hljs-style-dark .hljs-template-variable {
+  color: #d88;
+}
+
+.hljs-style-dark .hljs-comment,
+.hljs-style-dark .hljs-quote,
+.hljs-style-dark .hljs-deletion,
+.hljs-style-dark .hljs-meta {
+  color: #979797;
+}
+
+.hljs-style-dark .hljs-keyword,
+.hljs-style-dark .hljs-selector-tag,
+.hljs-style-dark .hljs-literal,
+.hljs-style-dark .hljs-title,
+.hljs-style-dark .hljs-section,
+.hljs-style-dark .hljs-doctag,
+.hljs-style-dark .hljs-type,
+.hljs-style-dark .hljs-name,
+.hljs-style-dark .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-dark .hljs-emphasis {
+  font-style: italic;
+}

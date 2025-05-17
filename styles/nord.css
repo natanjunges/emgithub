@@ -1,0 +1,342 @@
+/*
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord highlight.js
+ * Version:    0.1.0
+ * Repository: https://github.com/arcticicestudio/nord-highlightjs
+ * License:    MIT
+ * References:
+ *   https://github.com/arcticicestudio/nord
+ */
+
+/*
+
+Polar Night
+
+#2E3440
+#3B4252
+#434C5E
+#4C566A
+
+Snow Storm
+
+#D8DEE9
+#E5E9F0
+#ECEFF4
+
+Frost
+
+#8FBCBB
+#88C0D0
+#81A1C1
+#5E81AC
+
+Aurora
+
+#BF616A
+#D08770
+#EBCB8B
+#A3BE8C
+#B48EAD
+
+*/
+
+.hljs-style-nord .hljs {
+  background: #2E3440;
+}
+
+.hljs-style-nord .hljs,
+.hljs-style-nord .hljs-subst {
+  color: #D8DEE9;
+}
+
+.hljs-style-nord .hljs-selector-tag {
+  color: #81A1C1;
+}
+
+.hljs-style-nord .hljs-selector-id {
+  color: #8FBCBB;
+  font-weight: bold;
+}
+
+.hljs-style-nord .hljs-selector-class {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-selector-attr {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-property {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .hljs-selector-pseudo {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .hljs-addition {
+  background-color: rgba(163, 190, 140, 0.5);
+}
+
+.hljs-style-nord .hljs-deletion {
+  background-color: rgba(191, 97, 106, 0.5);
+}
+
+.hljs-style-nord .hljs-built_in,
+.hljs-style-nord .hljs-type {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-class {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-function {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .hljs-title.hljs-function,
+.hljs-style-nord .hljs-function > .hljs-title {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .hljs-keyword,
+.hljs-style-nord .hljs-literal,
+.hljs-style-nord .hljs-symbol {
+  color: #81A1C1;
+}
+
+.hljs-style-nord .hljs-number {
+  color: #B48EAD;
+}
+
+.hljs-style-nord .hljs-regexp {
+  color: #EBCB8B;
+}
+
+.hljs-style-nord .hljs-string {
+  color: #A3BE8C;
+}
+
+.hljs-style-nord .hljs-title {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-params {
+  color: #D8DEE9;
+}
+
+.hljs-style-nord .hljs-bullet {
+  color: #81A1C1;
+}
+
+.hljs-style-nord .hljs-code {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-nord .hljs-formula {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-nord .hljs-link:hover {
+  text-decoration: underline;
+}
+
+.hljs-style-nord .hljs-quote {
+  color: #4C566A;
+}
+
+.hljs-style-nord .hljs-comment {
+  color: #4C566A;
+}
+
+.hljs-style-nord .hljs-doctag {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-meta,
+.hljs-style-nord .hljs-meta .hljs-keyword {
+
+  color: #5E81AC;
+}
+
+.hljs-style-nord .hljs-meta .hljs-string {
+  color: #A3BE8C;
+}
+
+.hljs-style-nord .hljs-attr {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .hljs-attribute {
+  color: #D8DEE9;
+}
+
+.hljs-style-nord .hljs-name {
+  color: #81A1C1;
+}
+
+.hljs-style-nord .hljs-section {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .hljs-tag {
+  color: #81A1C1;
+}
+
+.hljs-style-nord .hljs-variable {
+  color: #D8DEE9;
+}
+
+.hljs-style-nord .hljs-template-variable {
+  color: #D8DEE9;
+}
+
+.hljs-style-nord .hljs-template-tag {
+  color: #5E81AC;
+}
+
+/* per language customizations */
+
+.hljs-style-nord .language-abnf .hljs-attribute {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-abnf .hljs-symbol {
+  color: #EBCB8B;
+}
+
+.hljs-style-nord .language-apache .hljs-attribute {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-apache .hljs-section {
+  color: #81A1C1;
+}
+
+.hljs-style-nord .language-arduino .hljs-built_in {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-aspectj .hljs-meta {
+  color: #D08770;
+}
+
+.hljs-style-nord .language-aspectj > .hljs-title {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-bnf .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .language-clojure .hljs-name {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-clojure .hljs-symbol {
+  color: #EBCB8B;
+}
+
+.hljs-style-nord .language-coq .hljs-built_in {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-cpp .hljs-meta .hljs-string {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .language-css .hljs-built_in {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-css .hljs-keyword {
+  color: #D08770;
+}
+
+.hljs-style-nord .language-diff .hljs-meta {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .language-ebnf .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .language-glsl .hljs-built_in {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-groovy .hljs-meta:not(:first-child) {
+  color: #D08770;
+}
+
+.hljs-style-nord .language-haxe .hljs-meta {
+  color: #D08770;
+}
+
+.hljs-style-nord .language-java .hljs-meta {
+  color: #D08770;
+}
+
+.hljs-style-nord .language-ldif .hljs-attribute {
+  color: #8FBCBB;
+}
+
+.hljs-style-nord .language-lisp .hljs-name {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-lua .hljs-built_in {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-moonscript .hljs-built_in {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-nginx .hljs-attribute {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-nginx .hljs-section {
+  color: #5E81AC;
+}
+
+.hljs-style-nord .language-pf .hljs-built_in {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-processing .hljs-built_in {
+  color: #88C0D0;
+}
+
+.hljs-style-nord .language-scss .hljs-keyword {
+  color: #81A1C1;
+}
+
+.hljs-style-nord .language-stylus .hljs-keyword {
+  color: #81A1C1;
+}
+
+.hljs-style-nord .language-swift .hljs-meta {
+  color: #D08770;
+}
+
+.hljs-style-nord .language-vim .hljs-built_in {
+  color: #88C0D0;
+  font-style: italic;
+}
+
+.hljs-style-nord .language-yaml .hljs-meta {
+  color: #D08770;
+}

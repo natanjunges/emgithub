@@ -1,0 +1,93 @@
+/*
+
+vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
+
+*/
+
+.hljs-style-hybrid .hljs {
+  background: #1d1f21;
+  color: #c5c8c6;
+}
+
+/*selection color*/
+.hljs-style-hybrid .hljs::selection,
+.hljs-style-hybrid .hljs span::selection {
+  background: #373b41;
+}
+
+.hljs-style-hybrid .hljs::-moz-selection,
+.hljs-style-hybrid .hljs span::-moz-selection {
+  background: #373b41;
+}
+
+/*color: fg_yellow*/
+.hljs-style-hybrid .hljs-title,
+.hljs-style-hybrid .hljs-name {
+  color: #f0c674;
+}
+
+/*color: fg_comment*/
+.hljs-style-hybrid .hljs-comment,
+.hljs-style-hybrid .hljs-meta,
+.hljs-style-hybrid .hljs-meta .hljs-keyword {
+  color: #707880;
+}
+
+/*color: fg_red*/
+.hljs-style-hybrid .hljs-number,
+.hljs-style-hybrid .hljs-symbol,
+.hljs-style-hybrid .hljs-literal,
+.hljs-style-hybrid .hljs-deletion,
+.hljs-style-hybrid .hljs-link {
+ color: #cc6666
+}
+
+/*color: fg_green*/
+.hljs-style-hybrid .hljs-string,
+.hljs-style-hybrid .hljs-doctag,
+.hljs-style-hybrid .hljs-addition,
+.hljs-style-hybrid .hljs-regexp,
+.hljs-style-hybrid .hljs-selector-attr,
+.hljs-style-hybrid .hljs-selector-pseudo {
+  color: #b5bd68;
+}
+
+/*color: fg_purple*/
+.hljs-style-hybrid .hljs-attribute,
+.hljs-style-hybrid .hljs-code,
+.hljs-style-hybrid .hljs-selector-id {
+ color: #b294bb;
+}
+
+/*color: fg_blue*/
+.hljs-style-hybrid .hljs-keyword,
+.hljs-style-hybrid .hljs-selector-tag,
+.hljs-style-hybrid .hljs-bullet,
+.hljs-style-hybrid .hljs-tag {
+ color: #81a2be;
+}
+
+/*color: fg_aqua*/
+.hljs-style-hybrid .hljs-subst,
+.hljs-style-hybrid .hljs-variable,
+.hljs-style-hybrid .hljs-template-tag,
+.hljs-style-hybrid .hljs-template-variable {
+  color: #8abeb7;
+}
+
+/*color: fg_orange*/
+.hljs-style-hybrid .hljs-type,
+.hljs-style-hybrid .hljs-built_in,
+.hljs-style-hybrid .hljs-quote,
+.hljs-style-hybrid .hljs-section,
+.hljs-style-hybrid .hljs-selector-class {
+  color: #de935f;
+}
+
+.hljs-style-hybrid .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-hybrid .hljs-strong {
+  font-weight: bold;
+}

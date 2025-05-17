@@ -1,0 +1,94 @@
+/*
+
+Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
+
+*/
+
+.hljs-style-idea .hljs {
+  color: #000;
+  background: #fff;
+}
+
+.hljs-style-idea .hljs-subst,
+.hljs-style-idea .hljs-title {
+  font-weight: normal;
+  color: #000;
+}
+
+.hljs-style-idea .hljs-comment,
+.hljs-style-idea .hljs-quote {
+  color: #808080;
+  font-style: italic;
+}
+
+.hljs-style-idea .hljs-meta {
+  color: #808000;
+}
+
+.hljs-style-idea .hljs-tag {
+  background: #efefef;
+}
+
+.hljs-style-idea .hljs-section,
+.hljs-style-idea .hljs-name,
+.hljs-style-idea .hljs-literal,
+.hljs-style-idea .hljs-keyword,
+.hljs-style-idea .hljs-selector-tag,
+.hljs-style-idea .hljs-type,
+.hljs-style-idea .hljs-selector-id,
+.hljs-style-idea .hljs-selector-class {
+  font-weight: bold;
+  color: #000080;
+}
+
+.hljs-style-idea .hljs-attribute,
+.hljs-style-idea .hljs-number,
+.hljs-style-idea .hljs-regexp,
+.hljs-style-idea .hljs-link {
+  font-weight: bold;
+  color: #0000ff;
+}
+
+.hljs-style-idea .hljs-number,
+.hljs-style-idea .hljs-regexp,
+.hljs-style-idea .hljs-link {
+  font-weight: normal;
+}
+
+.hljs-style-idea .hljs-string {
+  color: #008000;
+  font-weight: bold;
+}
+
+.hljs-style-idea .hljs-symbol,
+.hljs-style-idea .hljs-bullet,
+.hljs-style-idea .hljs-formula {
+  color: #000;
+  background: #d0eded;
+  font-style: italic;
+}
+
+.hljs-style-idea .hljs-doctag {
+  text-decoration: underline;
+}
+
+.hljs-style-idea .hljs-variable,
+.hljs-style-idea .hljs-template-variable {
+  color: #660e7a;
+}
+
+.hljs-style-idea .hljs-addition {
+  background: #baeeba;
+}
+
+.hljs-style-idea .hljs-deletion {
+  background: #ffc8bd;
+}
+
+.hljs-style-idea .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-idea .hljs-strong {
+  font-weight: bold;
+}

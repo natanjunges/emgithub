@@ -1,0 +1,114 @@
+ /*!
+  Theme: nnfx light
+  Description: a theme inspired by Netscape Navigator/Firefox
+  Author: (c) 2020-2021 Jim Mason <jmason@ibinx.com>
+  Maintainer: @RocketMan
+  License: https://creativecommons.org/licenses/by-sa/4.0  CC BY-SA 4.0
+  Updated: 2021-05-17
+
+  @version 1.1.0
+*/
+
+.hljs-style-nnfx-light .hljs {
+  background: #fff;
+  color: #000;
+}
+
+.hljs-style-nnfx-light .language-xml .hljs-meta,
+.hljs-style-nnfx-light .language-xml .hljs-meta-string {
+  font-weight: bold;
+  font-style: italic;
+  color: #48b;
+}
+
+.hljs-style-nnfx-light .hljs-comment,
+.hljs-style-nnfx-light .hljs-quote {
+  font-style: italic;
+  color: #070;
+}
+
+.hljs-style-nnfx-light .hljs-name,
+.hljs-style-nnfx-light .hljs-keyword,
+.hljs-style-nnfx-light .hljs-built_in {
+  color: #808;
+}
+
+.hljs-style-nnfx-light .hljs-name,
+.hljs-style-nnfx-light .hljs-attr {
+  font-weight: bold;
+}
+
+.hljs-style-nnfx-light .hljs-string {
+  font-weight: normal;
+}
+
+.hljs-style-nnfx-light .hljs-code,
+.hljs-style-nnfx-light .hljs-string,
+.hljs-style-nnfx-light .hljs-meta .hljs-string,
+.hljs-style-nnfx-light .hljs-number,
+.hljs-style-nnfx-light .hljs-regexp,
+.hljs-style-nnfx-light .hljs-link {
+  color: #00f;
+}
+
+.hljs-style-nnfx-light .hljs-title,
+.hljs-style-nnfx-light .hljs-symbol,
+.hljs-style-nnfx-light .hljs-bullet,
+.hljs-style-nnfx-light .hljs-variable,
+.hljs-style-nnfx-light .hljs-template-variable {
+  color: #f40;
+}
+
+.hljs-style-nnfx-light .hljs-title.class_,
+.hljs-style-nnfx-light .hljs-class .hljs-title,
+.hljs-style-nnfx-light .hljs-type {
+  font-weight: bold;
+  color: #639;
+}
+
+.hljs-style-nnfx-light .hljs-title.function_,
+.hljs-style-nnfx-light .hljs-function .hljs-title,
+.hljs-style-nnfx-light .hljs-attr,
+.hljs-style-nnfx-light .hljs-subst,
+.hljs-style-nnfx-light .hljs-tag {
+  color: #000;
+}
+
+.hljs-style-nnfx-light .hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.hljs-style-nnfx-light .hljs-addition {
+  background-color: #beb;
+}
+
+.hljs-style-nnfx-light .hljs-deletion {
+  background-color: #fbb;
+}
+
+.hljs-style-nnfx-light .hljs-meta {
+  color: #269;
+}
+
+.hljs-style-nnfx-light .hljs-section,
+.hljs-style-nnfx-light .hljs-selector-id,
+.hljs-style-nnfx-light .hljs-selector-class,
+.hljs-style-nnfx-light .hljs-selector-pseudo,
+.hljs-style-nnfx-light .hljs-selector-tag {
+  font-weight: bold;
+  color: #48b;
+}
+
+.hljs-style-nnfx-light .hljs-selector-pseudo {
+  font-style: italic;
+}
+
+.hljs-style-nnfx-light .hljs-doctag,
+.hljs-style-nnfx-light .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-nnfx-light .hljs-emphasis {
+  font-style: italic;
+}

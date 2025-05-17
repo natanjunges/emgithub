@@ -1,0 +1,126 @@
+/*!
+  Theme: StackOverflow Light
+  Description: Light theme as used on stackoverflow.com
+  Author: stackoverflow.com
+  Maintainer: @Hirse
+  Website: https://github.com/StackExchange/Stacks
+  License: MIT
+  Updated: 2021-05-15
+
+  Updated for @stackoverflow/stacks v0.64.0
+  Code Blocks: /blob/v0.64.0/lib/css/components/_stacks-code-blocks.less
+  Colors: /blob/v0.64.0/lib/css/exports/_stacks-constants-colors.less
+*/
+
+.hljs-style-stackoverflow-light .hljs {
+  /* var(--highlight-color) */
+  color: #2f3337;
+  /* var(--highlight-bg) */
+  background: #f6f6f6;
+}
+
+.hljs-style-stackoverflow-light .hljs-subst {
+  /* var(--highlight-color) */
+  color: #2f3337;
+}
+
+.hljs-style-stackoverflow-light .hljs-comment {
+  /* var(--highlight-comment) */
+  color: #656e77;
+}
+
+.hljs-style-stackoverflow-light .hljs-keyword,
+.hljs-style-stackoverflow-light .hljs-selector-tag,
+.hljs-style-stackoverflow-light .hljs-meta .hljs-keyword,
+.hljs-style-stackoverflow-light .hljs-doctag,
+.hljs-style-stackoverflow-light .hljs-section {
+  /* var(--highlight-keyword) */
+  color: #015692;
+}
+
+.hljs-style-stackoverflow-light .hljs-attr {
+  /* var(--highlight-attribute); */
+  color: #015692;
+}
+
+.hljs-style-stackoverflow-light .hljs-attribute {
+  /* var(--highlight-symbol) */
+  color: #803378;
+}
+
+.hljs-style-stackoverflow-light .hljs-name,
+.hljs-style-stackoverflow-light .hljs-type,
+.hljs-style-stackoverflow-light .hljs-number,
+.hljs-style-stackoverflow-light .hljs-selector-id,
+.hljs-style-stackoverflow-light .hljs-quote,
+.hljs-style-stackoverflow-light .hljs-template-tag {
+  /* var(--highlight-namespace) */
+  color: #b75501;
+}
+
+.hljs-style-stackoverflow-light .hljs-selector-class {
+  /* var(--highlight-keyword) */
+  color: #015692;
+}
+
+.hljs-style-stackoverflow-light .hljs-string,
+.hljs-style-stackoverflow-light .hljs-regexp,
+.hljs-style-stackoverflow-light .hljs-symbol,
+.hljs-style-stackoverflow-light .hljs-variable,
+.hljs-style-stackoverflow-light .hljs-template-variable,
+.hljs-style-stackoverflow-light .hljs-link,
+.hljs-style-stackoverflow-light .hljs-selector-attr {
+  /* var(--highlight-variable) */
+  color: #54790d;
+}
+
+.hljs-style-stackoverflow-light .hljs-meta,
+.hljs-style-stackoverflow-light .hljs-selector-pseudo {
+  /* var(--highlight-keyword) */
+  color: #015692;
+}
+
+.hljs-style-stackoverflow-light .hljs-built_in,
+.hljs-style-stackoverflow-light .hljs-title,
+.hljs-style-stackoverflow-light .hljs-literal {
+  /* var(--highlight-literal) */
+  color: #b75501;
+}
+
+.hljs-style-stackoverflow-light .hljs-bullet,
+.hljs-style-stackoverflow-light .hljs-code {
+  /* var(--highlight-punctuation) */
+  color: #535a60;
+}
+
+.hljs-style-stackoverflow-light .hljs-meta .hljs-string {
+  /* var(--highlight-variable) */
+  color: #54790d;
+}
+
+.hljs-style-stackoverflow-light .hljs-deletion {
+  /* var(--highlight-deletion) */
+  color: #c02d2e;
+}
+
+.hljs-style-stackoverflow-light .hljs-addition {
+  /* var(--highlight-addition) */
+  color: #2f6f44;
+}
+
+.hljs-style-stackoverflow-light .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-stackoverflow-light .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-stackoverflow-light .hljs-formula,
+.hljs-style-stackoverflow-light .hljs-operator,
+.hljs-style-stackoverflow-light .hljs-params,
+.hljs-style-stackoverflow-light .hljs-property,
+.hljs-style-stackoverflow-light .hljs-punctuation,
+.hljs-style-stackoverflow-light .hljs-tag {
+  /* purposely ignored */
+}

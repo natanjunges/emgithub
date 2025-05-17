@@ -1,0 +1,109 @@
+/*
+
+ISBL Editor style light color schemec (c) Dmitriy Tarasov <dimatar@gmail.com>
+
+*/
+
+.hljs-style-isbl-editor-light .hljs {
+  background: white;
+  color: black;
+}
+
+/* Base color: saturation 0; */
+
+.hljs-style-isbl-editor-light .hljs-subst {
+  color: black;
+}
+
+.hljs-style-isbl-editor-light .hljs-comment {
+  color: #555555;
+  font-style: italic;
+}
+
+.hljs-style-isbl-editor-light .hljs-keyword,
+.hljs-style-isbl-editor-light .hljs-attribute,
+.hljs-style-isbl-editor-light .hljs-selector-tag,
+.hljs-style-isbl-editor-light .hljs-meta .hljs-keyword,
+
+.hljs-style-isbl-editor-light .hljs-doctag,
+.hljs-style-isbl-editor-light .hljs-name {
+  color: #000000;
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-style-isbl-editor-light .hljs-string {
+  color: #000080;
+}
+
+.hljs-style-isbl-editor-light .hljs-type,
+.hljs-style-isbl-editor-light .hljs-number,
+.hljs-style-isbl-editor-light .hljs-selector-id,
+.hljs-style-isbl-editor-light .hljs-selector-class,
+.hljs-style-isbl-editor-light .hljs-quote,
+.hljs-style-isbl-editor-light .hljs-template-tag,
+.hljs-style-isbl-editor-light .hljs-deletion {
+  color: #000000;
+}
+
+.hljs-style-isbl-editor-light .hljs-regexp,
+.hljs-style-isbl-editor-light .hljs-symbol,
+.hljs-style-isbl-editor-light .hljs-variable,
+.hljs-style-isbl-editor-light .hljs-template-variable,
+.hljs-style-isbl-editor-light .hljs-link,
+.hljs-style-isbl-editor-light .hljs-selector-attr,
+.hljs-style-isbl-editor-light .hljs-selector-pseudo {
+  color: #5e1700;
+}
+
+/* Language color: hue: 90; */
+
+.hljs-style-isbl-editor-light .hljs-built_in,
+.hljs-style-isbl-editor-light .hljs-literal {
+  color: #000080;
+  font-weight: bold;
+}
+
+.hljs-style-isbl-editor-light .hljs-bullet,
+.hljs-style-isbl-editor-light .hljs-code,
+.hljs-style-isbl-editor-light .hljs-addition {
+  color: #397300;
+}
+
+.hljs-style-isbl-editor-light .hljs-class  {
+  color: #6f1C00;
+  font-weight: bold;
+}
+
+.hljs-style-isbl-editor-light .hljs-title,
+.hljs-style-isbl-editor-light .hljs-section {
+  color: #fb2c00;
+}
+
+.hljs-style-isbl-editor-light .hljs-title>.hljs-built_in {
+  color: #008080;
+  font-weight: normal;
+}
+
+/* Meta color: hue: 200 */
+
+.hljs-style-isbl-editor-light .hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-style-isbl-editor-light .hljs-meta .hljs-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-style-isbl-editor-light .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-isbl-editor-light .hljs-strong {
+  font-weight: bold;
+}

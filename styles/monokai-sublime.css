@@ -1,0 +1,80 @@
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.hljs-style-monokai-sublime .hljs {
+  background: #23241f;
+  color: #f8f8f2;
+}
+
+.hljs-style-monokai-sublime .hljs-tag,
+.hljs-style-monokai-sublime .hljs-subst {
+  color: #f8f8f2;
+}
+
+.hljs-style-monokai-sublime .hljs-strong,
+.hljs-style-monokai-sublime .hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-style-monokai-sublime .hljs-bullet,
+.hljs-style-monokai-sublime .hljs-quote,
+.hljs-style-monokai-sublime .hljs-number,
+.hljs-style-monokai-sublime .hljs-regexp,
+.hljs-style-monokai-sublime .hljs-literal,
+.hljs-style-monokai-sublime .hljs-link {
+  color: #ae81ff;
+}
+
+.hljs-style-monokai-sublime .hljs-code,
+.hljs-style-monokai-sublime .hljs-title,
+.hljs-style-monokai-sublime .hljs-section,
+.hljs-style-monokai-sublime .hljs-selector-class {
+  color: #a6e22e;
+}
+
+.hljs-style-monokai-sublime .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-monokai-sublime .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-monokai-sublime .hljs-keyword,
+.hljs-style-monokai-sublime .hljs-selector-tag,
+.hljs-style-monokai-sublime .hljs-name,
+.hljs-style-monokai-sublime .hljs-attr {
+  color: #f92672;
+}
+
+.hljs-style-monokai-sublime .hljs-symbol,
+.hljs-style-monokai-sublime .hljs-attribute {
+  color: #66d9ef;
+}
+
+.hljs-style-monokai-sublime .hljs-params,
+.hljs-style-monokai-sublime .hljs-title.class_,
+.hljs-style-monokai-sublime .hljs-class .hljs-title {
+  color: #f8f8f2;
+}
+
+.hljs-style-monokai-sublime .hljs-string,
+.hljs-style-monokai-sublime .hljs-type,
+.hljs-style-monokai-sublime .hljs-built_in,
+.hljs-style-monokai-sublime .hljs-selector-id,
+.hljs-style-monokai-sublime .hljs-selector-attr,
+.hljs-style-monokai-sublime .hljs-selector-pseudo,
+.hljs-style-monokai-sublime .hljs-addition,
+.hljs-style-monokai-sublime .hljs-variable,
+.hljs-style-monokai-sublime .hljs-template-variable {
+  color: #e6db74;
+}
+
+.hljs-style-monokai-sublime .hljs-comment,
+.hljs-style-monokai-sublime .hljs-deletion,
+.hljs-style-monokai-sublime .hljs-meta {
+  color: #75715e;
+}

@@ -1,0 +1,114 @@
+ /*!
+  Theme: nnfx dark
+  Description: a theme inspired by Netscape Navigator/Firefox
+  Author: (c) 2020-2021 Jim Mason <jmason@ibinx.com>
+  Maintainer: @RocketMan
+  License: https://creativecommons.org/licenses/by-sa/4.0  CC BY-SA 4.0
+  Updated: 2021-05-17
+
+  @version 1.1.0
+*/
+
+.hljs-style-nnfx-dark .hljs {
+  background: #333;
+  color: #fff;
+}
+
+.hljs-style-nnfx-dark .language-xml .hljs-meta,
+.hljs-style-nnfx-dark .language-xml .hljs-meta-string {
+  font-weight: bold;
+  font-style: italic;
+  color: #69f;
+}
+
+.hljs-style-nnfx-dark .hljs-comment,
+.hljs-style-nnfx-dark .hljs-quote {
+  font-style: italic;
+  color: #9c6;
+}
+
+.hljs-style-nnfx-dark .hljs-name,
+.hljs-style-nnfx-dark .hljs-keyword,
+.hljs-style-nnfx-dark .hljs-built_in {
+  color: #a7a;
+}
+
+.hljs-style-nnfx-dark .hljs-name,
+.hljs-style-nnfx-dark .hljs-attr {
+  font-weight: bold;
+}
+
+.hljs-style-nnfx-dark .hljs-string {
+  font-weight: normal;
+}
+
+.hljs-style-nnfx-dark .hljs-code,
+.hljs-style-nnfx-dark .hljs-string,
+.hljs-style-nnfx-dark .hljs-meta .hljs-string,
+.hljs-style-nnfx-dark .hljs-number,
+.hljs-style-nnfx-dark .hljs-regexp,
+.hljs-style-nnfx-dark .hljs-link {
+  color: #bce;
+}
+
+.hljs-style-nnfx-dark .hljs-title,
+.hljs-style-nnfx-dark .hljs-symbol,
+.hljs-style-nnfx-dark .hljs-bullet,
+.hljs-style-nnfx-dark .hljs-variable,
+.hljs-style-nnfx-dark .hljs-template-variable {
+  color: #d40;
+}
+
+.hljs-style-nnfx-dark .hljs-title.class_,
+.hljs-style-nnfx-dark .hljs-class .hljs-title,
+.hljs-style-nnfx-dark .hljs-type {
+  font-weight: bold;
+  color: #96c;
+}
+
+.hljs-style-nnfx-dark .hljs-title.function_,
+.hljs-style-nnfx-dark .hljs-function .hljs-title,
+.hljs-style-nnfx-dark .hljs-attr,
+.hljs-style-nnfx-dark .hljs-subst,
+.hljs-style-nnfx-dark .hljs-tag {
+  color: #fff;
+}
+
+.hljs-style-nnfx-dark .hljs-formula {
+  background-color: #eee;
+  font-style: italic;
+}
+
+.hljs-style-nnfx-dark .hljs-addition {
+  background-color: #797;
+}
+
+.hljs-style-nnfx-dark .hljs-deletion {
+  background-color: #c99;
+}
+
+.hljs-style-nnfx-dark .hljs-meta {
+  color: #69f;
+}
+
+.hljs-style-nnfx-dark .hljs-section,
+.hljs-style-nnfx-dark .hljs-selector-id,
+.hljs-style-nnfx-dark .hljs-selector-class,
+.hljs-style-nnfx-dark .hljs-selector-pseudo,
+.hljs-style-nnfx-dark .hljs-selector-tag {
+  font-weight: bold;
+  color: #69f;
+}
+
+.hljs-style-nnfx-dark .hljs-selector-pseudo {
+  font-style: italic;
+}
+
+.hljs-style-nnfx-dark .hljs-doctag,
+.hljs-style-nnfx-dark .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-nnfx-dark .hljs-emphasis {
+  font-style: italic;
+}

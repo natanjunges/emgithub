@@ -1,0 +1,80 @@
+/*
+
+Qt Creator dark color scheme
+
+*/
+
+
+.hljs-style-qtcreator-dark .hljs {
+  color: #aaaaaa;
+  background: #000000;
+}
+
+.hljs-style-qtcreator-dark .hljs-strong,
+.hljs-style-qtcreator-dark .hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-style-qtcreator-dark .hljs-bullet,
+.hljs-style-qtcreator-dark .hljs-quote,
+.hljs-style-qtcreator-dark .hljs-number,
+.hljs-style-qtcreator-dark .hljs-regexp,
+.hljs-style-qtcreator-dark .hljs-literal {
+  color: #ff55ff;
+}
+
+.hljs-style-qtcreator-dark .hljs-code
+.hljs-selector-class {
+  color: #aaaaff;
+}
+
+.hljs-style-qtcreator-dark .hljs-emphasis,
+.hljs-style-qtcreator-dark .hljs-stronge,
+.hljs-style-qtcreator-dark .hljs-type {
+  font-style: italic;
+}
+
+.hljs-style-qtcreator-dark .hljs-keyword,
+.hljs-style-qtcreator-dark .hljs-selector-tag,
+.hljs-style-qtcreator-dark .hljs-function,
+.hljs-style-qtcreator-dark .hljs-section,
+.hljs-style-qtcreator-dark .hljs-symbol,
+.hljs-style-qtcreator-dark .hljs-name {
+  color: #ffff55;
+}
+
+.hljs-style-qtcreator-dark .hljs-subst,
+.hljs-style-qtcreator-dark .hljs-tag,
+.hljs-style-qtcreator-dark .hljs-title {
+  color: #aaaaaa;
+}
+
+.hljs-style-qtcreator-dark .hljs-attribute {
+  color: #ff5555;
+}
+
+.hljs-style-qtcreator-dark .hljs-variable,
+.hljs-style-qtcreator-dark .hljs-params,
+.hljs-style-qtcreator-dark .hljs-title.class_,
+.hljs-style-qtcreator-dark .hljs-class .hljs-title {
+  color: #8888ff;
+}
+
+.hljs-style-qtcreator-dark .hljs-string,
+.hljs-style-qtcreator-dark .hljs-selector-id,
+.hljs-style-qtcreator-dark .hljs-selector-attr,
+.hljs-style-qtcreator-dark .hljs-selector-pseudo,
+.hljs-style-qtcreator-dark .hljs-type,
+.hljs-style-qtcreator-dark .hljs-built_in,
+.hljs-style-qtcreator-dark .hljs-template-tag,
+.hljs-style-qtcreator-dark .hljs-template-variable,
+.hljs-style-qtcreator-dark .hljs-addition,
+.hljs-style-qtcreator-dark .hljs-link {
+  color: #ff55ff;
+}
+
+.hljs-style-qtcreator-dark .hljs-comment,
+.hljs-style-qtcreator-dark .hljs-meta,
+.hljs-style-qtcreator-dark .hljs-deletion {
+  color: #55ffff;
+}

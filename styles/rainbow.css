@@ -1,0 +1,83 @@
+/*
+
+Style with support for rainbow parens
+
+*/
+
+.hljs-style-rainbow .hljs {
+  background: #474949;
+  color: #d1d9e1;
+}
+
+
+.hljs-style-rainbow .hljs-comment,
+.hljs-style-rainbow .hljs-quote {
+  color: #969896;
+  font-style: italic;
+}
+
+.hljs-style-rainbow .hljs-keyword,
+.hljs-style-rainbow .hljs-selector-tag,
+.hljs-style-rainbow .hljs-literal,
+.hljs-style-rainbow .hljs-type,
+.hljs-style-rainbow .hljs-addition {
+  color: #cc99cc;
+}
+
+.hljs-style-rainbow .hljs-number,
+.hljs-style-rainbow .hljs-selector-attr,
+.hljs-style-rainbow .hljs-selector-pseudo {
+  color: #f99157;
+}
+
+.hljs-style-rainbow .hljs-string,
+.hljs-style-rainbow .hljs-doctag,
+.hljs-style-rainbow .hljs-regexp {
+  color: #8abeb7;
+}
+
+.hljs-style-rainbow .hljs-title,
+.hljs-style-rainbow .hljs-name,
+.hljs-style-rainbow .hljs-section,
+.hljs-style-rainbow .hljs-built_in {
+  color: #b5bd68;
+}
+
+.hljs-style-rainbow .hljs-variable,
+.hljs-style-rainbow .hljs-template-variable,
+.hljs-style-rainbow .hljs-selector-id,
+.hljs-style-rainbow .hljs-title.class_,
+.hljs-style-rainbow .hljs-class .hljs-title {
+   color: #ffcc66;
+}
+
+.hljs-style-rainbow .hljs-section,
+.hljs-style-rainbow .hljs-name,
+.hljs-style-rainbow .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-rainbow .hljs-symbol,
+.hljs-style-rainbow .hljs-bullet,
+.hljs-style-rainbow .hljs-subst,
+.hljs-style-rainbow .hljs-meta,
+.hljs-style-rainbow .hljs-link {
+  color: #f99157;
+}
+
+.hljs-style-rainbow .hljs-deletion {
+  color: #dc322f;
+}
+
+.hljs-style-rainbow .hljs-formula {
+  background: #eee8d5;
+}
+
+.hljs-style-rainbow .hljs-attr,
+.hljs-style-rainbow .hljs-attribute {
+  color: #81a2be;
+}
+
+.hljs-style-rainbow .hljs-emphasis {
+  font-style: italic;
+}

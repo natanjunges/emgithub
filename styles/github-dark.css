@@ -1,0 +1,125 @@
+/*!
+  Theme: GitHub Dark
+  Description: Dark theme as seen on github.com
+  Author: github.com
+  Maintainer: @Hirse
+  Updated: 2021-05-15
+
+  Outdated base version: https://github.com/primer/github-syntax-dark
+  Current colors taken from GitHub's CSS
+*/
+
+.hljs-style-github-dark .hljs {
+  color: #c9d1d9;
+  background: #0d1117;
+}
+
+.hljs-style-github-dark .hljs-doctag,
+.hljs-style-github-dark .hljs-keyword,
+.hljs-style-github-dark .hljs-meta .hljs-keyword,
+.hljs-style-github-dark .hljs-template-tag,
+.hljs-style-github-dark .hljs-template-variable,
+.hljs-style-github-dark .hljs-type,
+.hljs-style-github-dark .hljs-variable.language_ {
+  /* prettylights-syntax-keyword */
+  color: #ff7b72;
+}
+
+.hljs-style-github-dark .hljs-title,
+.hljs-style-github-dark .hljs-title.class_,
+.hljs-style-github-dark .hljs-title.class_.inherited__,
+.hljs-style-github-dark .hljs-title.function_ {
+  /* prettylights-syntax-entity */
+  color: #d2a8ff;
+}
+
+.hljs-style-github-dark .hljs-attr,
+.hljs-style-github-dark .hljs-attribute,
+.hljs-style-github-dark .hljs-literal,
+.hljs-style-github-dark .hljs-meta,
+.hljs-style-github-dark .hljs-number,
+.hljs-style-github-dark .hljs-operator,
+.hljs-style-github-dark .hljs-variable,
+.hljs-style-github-dark .hljs-selector-attr,
+.hljs-style-github-dark .hljs-selector-class,
+.hljs-style-github-dark .hljs-selector-id {
+  /* prettylights-syntax-constant */
+  color: #79c0ff;
+}
+
+.hljs-style-github-dark .hljs-regexp,
+.hljs-style-github-dark .hljs-string,
+.hljs-style-github-dark .hljs-meta .hljs-string {
+  /* prettylights-syntax-string */
+  color: #a5d6ff;
+}
+
+.hljs-style-github-dark .hljs-built_in,
+.hljs-style-github-dark .hljs-symbol {
+  /* prettylights-syntax-variable */
+  color: #ffa657;
+}
+
+.hljs-style-github-dark .hljs-comment,
+.hljs-style-github-dark .hljs-code,
+.hljs-style-github-dark .hljs-formula {
+  /* prettylights-syntax-comment */
+  color: #8b949e;
+}
+
+.hljs-style-github-dark .hljs-name,
+.hljs-style-github-dark .hljs-quote,
+.hljs-style-github-dark .hljs-selector-tag,
+.hljs-style-github-dark .hljs-selector-pseudo {
+  /* prettylights-syntax-entity-tag */
+  color: #7ee787;
+}
+
+.hljs-style-github-dark .hljs-subst {
+  /* prettylights-syntax-storage-modifier-import */
+  color: #c9d1d9;
+}
+
+.hljs-style-github-dark .hljs-section {
+  /* prettylights-syntax-markup-heading */
+  color: #1f6feb;
+  font-weight: bold;
+}
+
+.hljs-style-github-dark .hljs-bullet {
+  /* prettylights-syntax-markup-list */
+  color: #f2cc60;
+}
+
+.hljs-style-github-dark .hljs-emphasis {
+  /* prettylights-syntax-markup-italic */
+  color: #c9d1d9;
+  font-style: italic;
+}
+
+.hljs-style-github-dark .hljs-strong {
+  /* prettylights-syntax-markup-bold */
+  color: #c9d1d9;
+  font-weight: bold;
+}
+
+.hljs-style-github-dark .hljs-addition {
+  /* prettylights-syntax-markup-inserted */
+  color: #aff5b4;
+  background-color: #033a16;
+}
+
+.hljs-style-github-dark .hljs-deletion {
+  /* prettylights-syntax-markup-deleted */
+  color: #ffdcd7;
+  background-color: #67060c;
+}
+
+.hljs-style-github-dark .hljs-char.escape_,
+.hljs-style-github-dark .hljs-link,
+.hljs-style-github-dark .hljs-params,
+.hljs-style-github-dark .hljs-property,
+.hljs-style-github-dark .hljs-punctuation,
+.hljs-style-github-dark .hljs-tag {
+  /* purposely ignored */
+}

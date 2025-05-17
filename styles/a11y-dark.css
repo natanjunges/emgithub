@@ -1,0 +1,98 @@
+/*!
+  Theme: a11y-dark
+  Author: @ericwbailey
+  Maintainer: @ericwbailey
+
+  Based on the Tomorrow Night Eighties theme: https://github.com/isagalaev/highlight.js/blob/master/src/styles/tomorrow-night-eighties.css
+*/
+
+.hljs-style-a11y-dark .hljs {
+  background: #2b2b2b;
+  color: #f8f8f2;
+}
+
+/* Comment */
+.hljs-style-a11y-dark .hljs-comment,
+.hljs-style-a11y-dark .hljs-quote {
+  color: #d4d0ab;
+}
+
+/* Red */
+.hljs-style-a11y-dark .hljs-variable,
+.hljs-style-a11y-dark .hljs-template-variable,
+.hljs-style-a11y-dark .hljs-tag,
+.hljs-style-a11y-dark .hljs-name,
+.hljs-style-a11y-dark .hljs-selector-id,
+.hljs-style-a11y-dark .hljs-selector-class,
+.hljs-style-a11y-dark .hljs-regexp,
+.hljs-style-a11y-dark .hljs-deletion {
+  color: #ffa07a;
+}
+
+/* Orange */
+.hljs-style-a11y-dark .hljs-number,
+.hljs-style-a11y-dark .hljs-built_in,
+.hljs-style-a11y-dark .hljs-literal,
+.hljs-style-a11y-dark .hljs-type,
+.hljs-style-a11y-dark .hljs-params,
+.hljs-style-a11y-dark .hljs-meta,
+.hljs-style-a11y-dark .hljs-link {
+  color: #f5ab35;
+}
+
+/* Yellow */
+.hljs-style-a11y-dark .hljs-attribute {
+  color: #ffd700;
+}
+
+/* Green */
+.hljs-style-a11y-dark .hljs-string,
+.hljs-style-a11y-dark .hljs-symbol,
+.hljs-style-a11y-dark .hljs-bullet,
+.hljs-style-a11y-dark .hljs-addition {
+  color: #abe338;
+}
+
+/* Blue */
+.hljs-style-a11y-dark .hljs-title,
+.hljs-style-a11y-dark .hljs-section {
+  color: #00e0e0;
+}
+
+/* Purple */
+.hljs-style-a11y-dark .hljs-keyword,
+.hljs-style-a11y-dark .hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs-style-a11y-dark .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-a11y-dark .hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-style-a11y-dark .hljs-addition,
+  .hljs-style-a11y-dark .hljs-attribute,
+  .hljs-style-a11y-dark .hljs-built_in,
+  .hljs-style-a11y-dark .hljs-bullet,
+  .hljs-style-a11y-dark .hljs-comment,
+  .hljs-style-a11y-dark .hljs-link,
+  .hljs-style-a11y-dark .hljs-literal,
+  .hljs-style-a11y-dark .hljs-meta,
+  .hljs-style-a11y-dark .hljs-number,
+  .hljs-style-a11y-dark .hljs-params,
+  .hljs-style-a11y-dark .hljs-string,
+  .hljs-style-a11y-dark .hljs-symbol,
+  .hljs-style-a11y-dark .hljs-type,
+  .hljs-style-a11y-dark .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-style-a11y-dark .hljs-keyword,
+    .hljs-style-a11y-dark .hljs-selector-tag {
+        font-weight: bold;
+    }
+}

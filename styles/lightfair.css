@@ -1,0 +1,86 @@
+/*
+
+Lightfair style (c) Tristian Kelly <tristian.kelly560@gmail.com>
+
+*/
+
+.hljs-style-lightfair .hljs {
+  color: #444;
+  background: #fff;
+}
+
+.hljs-style-lightfair .hljs-name {
+    color:#01a3a3;
+}
+
+.hljs-style-lightfair .hljs-tag,.hljs-style-lightfair .hljs-meta {
+    color:#778899;
+}
+
+.hljs-style-lightfair .hljs-subst {
+  /* default */
+}
+
+.hljs-style-lightfair .hljs-comment {
+    color: #888888
+}
+
+.hljs-style-lightfair .hljs-keyword,
+.hljs-style-lightfair .hljs-attribute,
+.hljs-style-lightfair .hljs-selector-tag,
+.hljs-style-lightfair .hljs-meta .hljs-keyword,
+
+.hljs-style-lightfair .hljs-doctag,
+.hljs-style-lightfair .hljs-name {
+    font-weight: bold
+}
+
+.hljs-style-lightfair .hljs-type,
+.hljs-style-lightfair .hljs-string,
+.hljs-style-lightfair .hljs-number,
+.hljs-style-lightfair .hljs-selector-id,
+.hljs-style-lightfair .hljs-selector-class,
+.hljs-style-lightfair .hljs-quote,
+.hljs-style-lightfair .hljs-template-tag,
+.hljs-style-lightfair .hljs-deletion {
+    color: #4286f4
+}
+
+.hljs-style-lightfair .hljs-title,
+.hljs-style-lightfair .hljs-section {
+    color: #4286f4;
+    font-weight: bold
+}
+
+.hljs-style-lightfair .hljs-regexp,
+.hljs-style-lightfair .hljs-symbol,
+.hljs-style-lightfair .hljs-variable,
+.hljs-style-lightfair .hljs-template-variable,
+.hljs-style-lightfair .hljs-link,
+.hljs-style-lightfair .hljs-selector-attr,
+.hljs-style-lightfair .hljs-selector-pseudo {
+    color: #BC6060
+}
+
+.hljs-style-lightfair .hljs-literal {
+    color: #62bcbc
+}
+
+.hljs-style-lightfair .hljs-built_in,
+.hljs-style-lightfair .hljs-bullet,
+.hljs-style-lightfair .hljs-code,
+.hljs-style-lightfair .hljs-addition {
+    color: #25c6c6
+}
+
+.hljs-style-lightfair .hljs-meta .hljs-string {
+    color: #4d99bf
+}
+
+.hljs-style-lightfair .hljs-emphasis {
+    font-style: italic
+}
+
+.hljs-style-lightfair .hljs-strong {
+    font-weight: bold
+}

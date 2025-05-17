@@ -1,0 +1,110 @@
+/*
+
+ISBL Editor style dark color scheme (c) Dmitriy Tarasov <dimatar@gmail.com>
+
+*/
+
+.hljs-style-isbl-editor-dark .hljs {
+  background: #404040;
+  color: #f0f0f0;
+}
+
+/* Base color: saturation 0; */
+
+.hljs-style-isbl-editor-dark .hljs,
+.hljs-style-isbl-editor-dark .hljs-subst {
+  color: #f0f0f0;
+}
+
+.hljs-style-isbl-editor-dark .hljs-comment {
+  color: #b5b5b5;
+  font-style: italic;
+}
+
+.hljs-style-isbl-editor-dark .hljs-keyword,
+.hljs-style-isbl-editor-dark .hljs-attribute,
+.hljs-style-isbl-editor-dark .hljs-selector-tag,
+.hljs-style-isbl-editor-dark .hljs-meta .hljs-keyword,
+
+.hljs-style-isbl-editor-dark .hljs-doctag,
+.hljs-style-isbl-editor-dark .hljs-name {
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-style-isbl-editor-dark .hljs-string {
+  color: #97bf0d;
+}
+
+.hljs-style-isbl-editor-dark .hljs-type,
+.hljs-style-isbl-editor-dark .hljs-number,
+.hljs-style-isbl-editor-dark .hljs-selector-id,
+.hljs-style-isbl-editor-dark .hljs-selector-class,
+.hljs-style-isbl-editor-dark .hljs-quote,
+.hljs-style-isbl-editor-dark .hljs-template-tag,
+.hljs-style-isbl-editor-dark .hljs-deletion {
+  color: #f0f0f0;
+}
+
+.hljs-style-isbl-editor-dark .hljs-regexp,
+.hljs-style-isbl-editor-dark .hljs-symbol,
+.hljs-style-isbl-editor-dark .hljs-variable,
+.hljs-style-isbl-editor-dark .hljs-template-variable,
+.hljs-style-isbl-editor-dark .hljs-link,
+.hljs-style-isbl-editor-dark .hljs-selector-attr,
+.hljs-style-isbl-editor-dark .hljs-selector-pseudo {
+  color: #e2c696;
+}
+
+/* Language color: hue: 90; */
+
+.hljs-style-isbl-editor-dark .hljs-built_in,
+.hljs-style-isbl-editor-dark .hljs-literal {
+  color: #97bf0d;
+  font-weight: bold;
+}
+
+.hljs-style-isbl-editor-dark .hljs-bullet,
+.hljs-style-isbl-editor-dark .hljs-code,
+.hljs-style-isbl-editor-dark .hljs-addition {
+  color: #397300;
+}
+
+.hljs-style-isbl-editor-dark .hljs-class  {
+  color: #ce9d4d;
+  font-weight: bold;
+}
+
+.hljs-style-isbl-editor-dark .hljs-title,
+.hljs-style-isbl-editor-dark .hljs-section {
+  color: #df471e;
+}
+
+.hljs-style-isbl-editor-dark .hljs-title>.hljs-built_in {
+  color: #81bce9;
+  font-weight: normal;
+}
+
+/* Meta color: hue: 200 */
+
+.hljs-style-isbl-editor-dark .hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-style-isbl-editor-dark .hljs-meta .hljs-string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-style-isbl-editor-dark .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-isbl-editor-dark .hljs-strong {
+  font-weight: bold;
+}

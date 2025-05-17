@@ -1,0 +1,56 @@
+/*
+  codepen.io Embed Theme
+  Author: Justin Perry <http://github.com/ourmaninamsterdam>
+  Original theme - https://github.com/chriskempson/tomorrow-theme
+*/
+
+.hljs-style-codepen-embed .hljs {
+  background: #222;
+  color: #fff;
+}
+
+.hljs-style-codepen-embed .hljs-comment,
+.hljs-style-codepen-embed .hljs-quote {
+  color: #777;
+}
+
+.hljs-style-codepen-embed .hljs-variable,
+.hljs-style-codepen-embed .hljs-template-variable,
+.hljs-style-codepen-embed .hljs-tag,
+.hljs-style-codepen-embed .hljs-regexp,
+.hljs-style-codepen-embed .hljs-meta,
+.hljs-style-codepen-embed .hljs-number,
+.hljs-style-codepen-embed .hljs-built_in,
+.hljs-style-codepen-embed .hljs-literal,
+.hljs-style-codepen-embed .hljs-params,
+.hljs-style-codepen-embed .hljs-symbol,
+.hljs-style-codepen-embed .hljs-bullet,
+.hljs-style-codepen-embed .hljs-link,
+.hljs-style-codepen-embed .hljs-deletion {
+  color: #ab875d;
+}
+
+.hljs-style-codepen-embed .hljs-section,
+.hljs-style-codepen-embed .hljs-title,
+.hljs-style-codepen-embed .hljs-name,
+.hljs-style-codepen-embed .hljs-selector-id,
+.hljs-style-codepen-embed .hljs-selector-class,
+.hljs-style-codepen-embed .hljs-type,
+.hljs-style-codepen-embed .hljs-attribute {
+  color: #9b869b;
+}
+
+.hljs-style-codepen-embed .hljs-string,
+.hljs-style-codepen-embed .hljs-keyword,
+.hljs-style-codepen-embed .hljs-selector-tag,
+.hljs-style-codepen-embed .hljs-addition {
+  color: #8f9c6c;
+}
+
+.hljs-style-codepen-embed .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-codepen-embed .hljs-strong {
+  font-weight: bold;
+}

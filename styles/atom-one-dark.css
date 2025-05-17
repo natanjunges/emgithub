@@ -1,0 +1,94 @@
+/*
+
+Atom One Dark by Daniel Gamage
+Original One Dark Syntax theme from https://github.com/atom/one-dark-syntax
+
+base:    #282c34
+mono-1:  #abb2bf
+mono-2:  #818896
+mono-3:  #5c6370
+hue-1:   #56b6c2
+hue-2:   #61aeee
+hue-3:   #c678dd
+hue-4:   #98c379
+hue-5:   #e06c75
+hue-5-2: #be5046
+hue-6:   #d19a66
+hue-6-2: #e6c07b
+
+*/
+
+.hljs-style-atom-one-dark .hljs {
+  color: #abb2bf;
+  background: #282c34;
+}
+
+.hljs-style-atom-one-dark .hljs-comment,
+.hljs-style-atom-one-dark .hljs-quote {
+  color: #5c6370;
+  font-style: italic;
+}
+
+.hljs-style-atom-one-dark .hljs-doctag,
+.hljs-style-atom-one-dark .hljs-keyword,
+.hljs-style-atom-one-dark .hljs-formula {
+  color: #c678dd;
+}
+
+.hljs-style-atom-one-dark .hljs-section,
+.hljs-style-atom-one-dark .hljs-name,
+.hljs-style-atom-one-dark .hljs-selector-tag,
+.hljs-style-atom-one-dark .hljs-deletion,
+.hljs-style-atom-one-dark .hljs-subst {
+  color: #e06c75;
+}
+
+.hljs-style-atom-one-dark .hljs-literal {
+  color: #56b6c2;
+}
+
+.hljs-style-atom-one-dark .hljs-string,
+.hljs-style-atom-one-dark .hljs-regexp,
+.hljs-style-atom-one-dark .hljs-addition,
+.hljs-style-atom-one-dark .hljs-attribute,
+.hljs-style-atom-one-dark .hljs-meta .hljs-string {
+  color: #98c379;
+}
+
+.hljs-style-atom-one-dark .hljs-attr,
+.hljs-style-atom-one-dark .hljs-variable,
+.hljs-style-atom-one-dark .hljs-template-variable,
+.hljs-style-atom-one-dark .hljs-type,
+.hljs-style-atom-one-dark .hljs-selector-class,
+.hljs-style-atom-one-dark .hljs-selector-attr,
+.hljs-style-atom-one-dark .hljs-selector-pseudo,
+.hljs-style-atom-one-dark .hljs-number {
+  color: #d19a66;
+}
+
+.hljs-style-atom-one-dark .hljs-symbol,
+.hljs-style-atom-one-dark .hljs-bullet,
+.hljs-style-atom-one-dark .hljs-link,
+.hljs-style-atom-one-dark .hljs-meta,
+.hljs-style-atom-one-dark .hljs-selector-id,
+.hljs-style-atom-one-dark .hljs-title {
+  color: #61aeee;
+}
+
+.hljs-style-atom-one-dark .hljs-built_in,
+.hljs-style-atom-one-dark .hljs-title.class_,
+.hljs-style-atom-one-dark .hljs-class .hljs-title {
+  color: #e6c07b;
+}
+
+.hljs-style-atom-one-dark .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-style-atom-one-dark .hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-style-atom-one-dark .hljs-link {
+  text-decoration: underline;
+}
