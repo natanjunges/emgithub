@@ -2,69 +2,71 @@
   IR_Black style (c) Vasily Mikhailitchenko <vaskas@programica.ru>
 */
 
-.hljs-style-ir-black .hljs {
+.hljs-style-ir-black {
+.hljs {
   background: #000;
   color: #f8f8f8;
 }
 
-.hljs-style-ir-black .hljs-comment,
-.hljs-style-ir-black .hljs-quote,
-.hljs-style-ir-black .hljs-meta {
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
   color: #7c7c7c;
 }
 
-.hljs-style-ir-black .hljs-keyword,
-.hljs-style-ir-black .hljs-selector-tag,
-.hljs-style-ir-black .hljs-tag,
-.hljs-style-ir-black .hljs-name {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-tag,
+.hljs-name {
   color: #96cbfe;
 }
 
-.hljs-style-ir-black .hljs-attribute,
-.hljs-style-ir-black .hljs-selector-id {
+.hljs-attribute,
+.hljs-selector-id {
   color: #ffffb6;
 }
 
-.hljs-style-ir-black .hljs-string,
-.hljs-style-ir-black .hljs-selector-attr,
-.hljs-style-ir-black .hljs-selector-pseudo,
-.hljs-style-ir-black .hljs-addition {
+.hljs-string,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition {
   color: #a8ff60;
 }
 
-.hljs-style-ir-black .hljs-subst {
+.hljs-subst {
   color: #daefa3;
 }
 
-.hljs-style-ir-black .hljs-regexp,
-.hljs-style-ir-black .hljs-link {
+.hljs-regexp,
+.hljs-link {
   color: #e9c062;
 }
 
-.hljs-style-ir-black .hljs-title,
-.hljs-style-ir-black .hljs-section,
-.hljs-style-ir-black .hljs-type,
-.hljs-style-ir-black .hljs-doctag {
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-doctag {
   color: #ffffb6;
 }
 
-.hljs-style-ir-black .hljs-symbol,
-.hljs-style-ir-black .hljs-bullet,
-.hljs-style-ir-black .hljs-variable,
-.hljs-style-ir-black .hljs-template-variable,
-.hljs-style-ir-black .hljs-literal {
+.hljs-symbol,
+.hljs-bullet,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-literal {
   color: #c6c5fe;
 }
 
-.hljs-style-ir-black .hljs-number,
-.hljs-style-ir-black .hljs-deletion {
+.hljs-number,
+.hljs-deletion {
   color:#ff73fd;
 }
 
-.hljs-style-ir-black .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-ir-black .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

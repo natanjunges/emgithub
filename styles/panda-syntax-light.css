@@ -4,91 +4,93 @@
  * Author: Annmarie Switzer <https://github.com/annmarie-switzer>
  */
 
-.hljs-style-panda-syntax-light .hljs {
+.hljs-style-panda-syntax-light {
+.hljs {
   color: #2a2c2d;
   background: #e6e6e6;
 }
 
-.hljs-style-panda-syntax-light .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-panda-syntax-light .hljs-strong {
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-panda-syntax-light .hljs-link {
+.hljs-link {
   text-decoration: underline;
 }
 
-.hljs-style-panda-syntax-light .hljs-comment,
-.hljs-style-panda-syntax-light .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #676B79;
   font-style: italic;
 }
 
-.hljs-style-panda-syntax-light .hljs-params {
+.hljs-params {
   color: #676B79;
 }
 
-.hljs-style-panda-syntax-light .hljs-punctuation,
-.hljs-style-panda-syntax-light .hljs-attr {
+.hljs-punctuation,
+.hljs-attr {
   color: #2a2c2d;
 }
 
-.hljs-style-panda-syntax-light .hljs-selector-tag,
-.hljs-style-panda-syntax-light .hljs-name,
-.hljs-style-panda-syntax-light .hljs-meta,
-.hljs-style-panda-syntax-light .hljs-operator,
-.hljs-style-panda-syntax-light .hljs-char.escape_ {
+.hljs-selector-tag,
+.hljs-name,
+.hljs-meta,
+.hljs-operator,
+.hljs-char.escape_ {
   color: #c56200;
 }
 
-.hljs-style-panda-syntax-light .hljs-keyword,
-.hljs-style-panda-syntax-light .hljs-deletion {
+.hljs-keyword,
+.hljs-deletion {
   color: #d92792;
 }
 
-.hljs-style-panda-syntax-light .hljs-regexp,
-.hljs-style-panda-syntax-light .hljs-selector-pseudo,
-.hljs-style-panda-syntax-light .hljs-selector-attr,
-.hljs-style-panda-syntax-light .hljs-variable.language_ {
+.hljs-regexp,
+.hljs-selector-pseudo,
+.hljs-selector-attr,
+.hljs-variable.language_ {
   color: #cc5e91;
 }
 
-.hljs-style-panda-syntax-light .hljs-subst,
-.hljs-style-panda-syntax-light .hljs-property,
-.hljs-style-panda-syntax-light .hljs-code,
-.hljs-style-panda-syntax-light .hljs-formula,
-.hljs-style-panda-syntax-light .hljs-section,
-.hljs-style-panda-syntax-light .hljs-title.function_ {
+.hljs-subst,
+.hljs-property,
+.hljs-code,
+.hljs-formula,
+.hljs-section,
+.hljs-title.function_ {
   color: #3787c7;
 }
 
-.hljs-style-panda-syntax-light .hljs-string,
-.hljs-style-panda-syntax-light .hljs-symbol,
-.hljs-style-panda-syntax-light .hljs-bullet,
-.hljs-style-panda-syntax-light .hljs-addition,
-.hljs-style-panda-syntax-light .hljs-selector-class,
-.hljs-style-panda-syntax-light .hljs-title.class_,
-.hljs-style-panda-syntax-light .hljs-title.class_.inherited__,
-.hljs-style-panda-syntax-light .hljs-meta .hljs-string {
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-selector-class,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-meta .hljs-string {
   color: #0d7d6c;
 }
 
-.hljs-style-panda-syntax-light .hljs-variable,
-.hljs-style-panda-syntax-light .hljs-template-variable,
-.hljs-style-panda-syntax-light .hljs-number,
-.hljs-style-panda-syntax-light .hljs-literal,
-.hljs-style-panda-syntax-light .hljs-type,
-.hljs-style-panda-syntax-light .hljs-link,
-.hljs-style-panda-syntax-light .hljs-built_in,
-.hljs-style-panda-syntax-light .hljs-title,
-.hljs-style-panda-syntax-light .hljs-selector-id,
-.hljs-style-panda-syntax-light .hljs-tag,
-.hljs-style-panda-syntax-light .hljs-doctag,
-.hljs-style-panda-syntax-light .hljs-attribute,
-.hljs-style-panda-syntax-light .hljs-template-tag,
-.hljs-style-panda-syntax-light .hljs-meta .hljs-keyword {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-number,
+.hljs-literal,
+.hljs-type,
+.hljs-link,
+.hljs-built_in,
+.hljs-title,
+.hljs-selector-id,
+.hljs-tag,
+.hljs-doctag,
+.hljs-attribute,
+.hljs-template-tag,
+.hljs-meta .hljs-keyword {
   color: #7641bb;
+}
 }

@@ -6,63 +6,65 @@ Ported by Fabrício Tavares de Oliveira
 
 */
 
-.hljs-style-color-brewer .hljs {
+.hljs-style-color-brewer {
+.hljs {
   color: #000;
   background: #fff;
 }
 
-.hljs-style-color-brewer .hljs-subst {
+.hljs-subst {
   /* default */
 }
 
-.hljs-style-color-brewer .hljs-string,
-.hljs-style-color-brewer .hljs-meta,
-.hljs-style-color-brewer .hljs-symbol,
-.hljs-style-color-brewer .hljs-template-tag,
-.hljs-style-color-brewer .hljs-template-variable,
-.hljs-style-color-brewer .hljs-addition {
+.hljs-string,
+.hljs-meta,
+.hljs-symbol,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-addition {
   color: #756bb1;
 }
 
-.hljs-style-color-brewer .hljs-comment,
-.hljs-style-color-brewer .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #636363;
 }
 
-.hljs-style-color-brewer .hljs-number,
-.hljs-style-color-brewer .hljs-regexp,
-.hljs-style-color-brewer .hljs-literal,
-.hljs-style-color-brewer .hljs-bullet,
-.hljs-style-color-brewer .hljs-link {
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-bullet,
+.hljs-link {
   color: #31a354;
 }
 
-.hljs-style-color-brewer .hljs-deletion,
-.hljs-style-color-brewer .hljs-variable {
+.hljs-deletion,
+.hljs-variable {
   color: #88f;
 }
 
 
 
-.hljs-style-color-brewer .hljs-keyword,
-.hljs-style-color-brewer .hljs-selector-tag,
-.hljs-style-color-brewer .hljs-title,
-.hljs-style-color-brewer .hljs-section,
-.hljs-style-color-brewer .hljs-built_in,
-.hljs-style-color-brewer .hljs-doctag,
-.hljs-style-color-brewer .hljs-type,
-.hljs-style-color-brewer .hljs-tag,
-.hljs-style-color-brewer .hljs-name,
-.hljs-style-color-brewer .hljs-selector-id,
-.hljs-style-color-brewer .hljs-selector-class,
-.hljs-style-color-brewer .hljs-strong {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-doctag,
+.hljs-type,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-strong {
   color: #3182bd;
 }
 
-.hljs-style-color-brewer .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-color-brewer .hljs-attribute {
+.hljs-attribute {
   color: #e6550d;
+}
 }

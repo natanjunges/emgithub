@@ -3,61 +3,63 @@ Date: 24 Fev 2015
 Author: Pedro Oliveira <kanytu@gmail . com>
 */
 
-.hljs-style-androidstudio .hljs {
+.hljs-style-androidstudio {
+.hljs {
   color: #a9b7c6;
   background: #282b2e;
 }
 
-.hljs-style-androidstudio .hljs-number,
-.hljs-style-androidstudio .hljs-literal,
-.hljs-style-androidstudio .hljs-symbol,
-.hljs-style-androidstudio .hljs-bullet {
+.hljs-number,
+.hljs-literal,
+.hljs-symbol,
+.hljs-bullet {
   color: #6897BB;
 }
 
-.hljs-style-androidstudio .hljs-keyword,
-.hljs-style-androidstudio .hljs-selector-tag,
-.hljs-style-androidstudio .hljs-deletion {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-deletion {
   color: #cc7832;
 }
 
-.hljs-style-androidstudio .hljs-variable,
-.hljs-style-androidstudio .hljs-template-variable,
-.hljs-style-androidstudio .hljs-link {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link {
   color: #629755;
 }
 
-.hljs-style-androidstudio .hljs-comment,
-.hljs-style-androidstudio .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #808080;
 }
 
-.hljs-style-androidstudio .hljs-meta {
+.hljs-meta {
   color: #bbb529;
 }
 
-.hljs-style-androidstudio .hljs-string,
-.hljs-style-androidstudio .hljs-attribute,
-.hljs-style-androidstudio .hljs-addition {
+.hljs-string,
+.hljs-attribute,
+.hljs-addition {
   color: #6A8759;
 }
 
-.hljs-style-androidstudio .hljs-section,
-.hljs-style-androidstudio .hljs-title,
-.hljs-style-androidstudio .hljs-type {
+.hljs-section,
+.hljs-title,
+.hljs-type {
   color: #ffc66d;
 }
 
-.hljs-style-androidstudio .hljs-name,
-.hljs-style-androidstudio .hljs-selector-id,
-.hljs-style-androidstudio .hljs-selector-class {
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
   color: #e8bf6a;
 }
 
-.hljs-style-androidstudio .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-androidstudio .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

@@ -1,53 +1,55 @@
 /*
   Five-color theme from a single blue hue.
 */
-.hljs-style-mono-blue .hljs {
+.hljs-style-mono-blue {
+.hljs {
   background: #eaeef3;
   color: #00193a;
 }
 
-.hljs-style-mono-blue .hljs-keyword,
-.hljs-style-mono-blue .hljs-selector-tag,
-.hljs-style-mono-blue .hljs-title,
-.hljs-style-mono-blue .hljs-section,
-.hljs-style-mono-blue .hljs-doctag,
-.hljs-style-mono-blue .hljs-name,
-.hljs-style-mono-blue .hljs-strong {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-name,
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-mono-blue .hljs-comment {
+.hljs-comment {
   color: #738191;
 }
 
-.hljs-style-mono-blue .hljs-string,
-.hljs-style-mono-blue .hljs-title,
-.hljs-style-mono-blue .hljs-section,
-.hljs-style-mono-blue .hljs-built_in,
-.hljs-style-mono-blue .hljs-literal,
-.hljs-style-mono-blue .hljs-type,
-.hljs-style-mono-blue .hljs-addition,
-.hljs-style-mono-blue .hljs-tag,
-.hljs-style-mono-blue .hljs-quote,
-.hljs-style-mono-blue .hljs-name,
-.hljs-style-mono-blue .hljs-selector-id,
-.hljs-style-mono-blue .hljs-selector-class {
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-addition,
+.hljs-tag,
+.hljs-quote,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
   color: #0048ab;
 }
 
-.hljs-style-mono-blue .hljs-meta,
-.hljs-style-mono-blue .hljs-subst,
-.hljs-style-mono-blue .hljs-symbol,
-.hljs-style-mono-blue .hljs-regexp,
-.hljs-style-mono-blue .hljs-attribute,
-.hljs-style-mono-blue .hljs-deletion,
-.hljs-style-mono-blue .hljs-variable,
-.hljs-style-mono-blue .hljs-template-variable,
-.hljs-style-mono-blue .hljs-link,
-.hljs-style-mono-blue .hljs-bullet {
+.hljs-meta,
+.hljs-subst,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-attribute,
+.hljs-deletion,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-bullet {
   color: #4c81c9;
 }
 
-.hljs-style-mono-blue .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
+}
 }

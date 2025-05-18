@@ -14,120 +14,122 @@ as-is from the repository directly without the need for a build step
 
 Typically this "required" baseline CSS is added by `makestuff.js` during build.
 */
-.hljs-style-default pre code.hljs {
+.hljs-style-default {
+pre code.hljs {
   display: block;
   overflow-x: auto;
   padding: 1em;
 }
 
-.hljs-style-default code.hljs {
+code.hljs {
   padding: 3px 5px;
 }
 /* end baseline CSS */
 
-.hljs-style-default .hljs {
+.hljs {
   background: #F3F3F3;
   color: #444;
 }
 
 /* Base color: saturation 0; */
 
-.hljs-style-default .hljs-subst {
+.hljs-subst {
   /* default */
 }
 
 /* purposely ignored */
-.hljs-style-default .hljs-formula,
-.hljs-style-default .hljs-attr,
-.hljs-style-default .hljs-property,
-.hljs-style-default .hljs-params {}
+.hljs-formula,
+.hljs-attr,
+.hljs-property,
+.hljs-params {}
 
-.hljs-style-default .hljs-comment {
+.hljs-comment {
   color: #697070;
 }
-.hljs-style-default .hljs-tag,
-.hljs-style-default .hljs-punctuation {
+.hljs-tag,
+.hljs-punctuation {
   color: #444a;
 }
 
-.hljs-style-default .hljs-tag .hljs-name,
-.hljs-style-default .hljs-tag .hljs-attr {
+.hljs-tag .hljs-name,
+.hljs-tag .hljs-attr {
   color: #444;
 }
 
 
-.hljs-style-default .hljs-keyword,
-.hljs-style-default .hljs-attribute,
-.hljs-style-default .hljs-selector-tag,
-.hljs-style-default .hljs-meta .hljs-keyword,
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta .hljs-keyword,
 
-.hljs-style-default .hljs-doctag,
-.hljs-style-default .hljs-name {
+.hljs-doctag,
+.hljs-name {
   font-weight: bold;
 }
 
 
 /* User color: hue: 0 */
 
-.hljs-style-default .hljs-type,
-.hljs-style-default .hljs-string,
-.hljs-style-default .hljs-number,
-.hljs-style-default .hljs-selector-id,
-.hljs-style-default .hljs-selector-class,
-.hljs-style-default .hljs-quote,
-.hljs-style-default .hljs-template-tag,
-.hljs-style-default .hljs-deletion {
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
   color: #880000;
 }
 
-.hljs-style-default .hljs-title,
-.hljs-style-default .hljs-section {
+.hljs-title,
+.hljs-section {
   color: #880000;
   font-weight: bold;
 }
 
-.hljs-style-default .hljs-regexp,
-.hljs-style-default .hljs-symbol,
-.hljs-style-default .hljs-variable,
-.hljs-style-default .hljs-template-variable,
-.hljs-style-default .hljs-link,
-.hljs-style-default .hljs-selector-attr,
-.hljs-style-default .hljs-operator,
-.hljs-style-default .hljs-selector-pseudo {
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-operator,
+.hljs-selector-pseudo {
   color: #ab5656;
 }
 
 /* Language color: hue: 90; */
 
-.hljs-style-default .hljs-literal {
+.hljs-literal {
   color: #695;
 }
 
-.hljs-style-default .hljs-built_in,
-.hljs-style-default .hljs-bullet,
-.hljs-style-default .hljs-code,
-.hljs-style-default .hljs-addition {
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
   color: #397300;
 }
 
 
 /* Meta color: hue: 200 */
 
-.hljs-style-default .hljs-meta {
+.hljs-meta {
   color: #1f7199;
 }
 
-.hljs-style-default .hljs-meta .hljs-string {
+.hljs-meta .hljs-string {
   color: #38a;
 }
 
 
 /* Misc effects */
 
-.hljs-style-default .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-default .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

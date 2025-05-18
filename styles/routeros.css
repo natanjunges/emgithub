@@ -4,99 +4,101 @@
 
 */
 
-.hljs-style-routeros .hljs {
+.hljs-style-routeros {
+.hljs {
   color: #444;
   background: #F0F0F0;
 }
 
 /* Base color: saturation 0; */
 
-.hljs-style-routeros .hljs-subst {
+.hljs-subst {
   color: #444;
 }
 
-.hljs-style-routeros .hljs-comment {
+.hljs-comment {
   color: #888888;
 }
 
-.hljs-style-routeros .hljs-keyword,
-.hljs-style-routeros .hljs-selector-tag,
-.hljs-style-routeros .hljs-meta .hljs-keyword,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-meta .hljs-keyword,
 
-.hljs-style-routeros .hljs-doctag,
-.hljs-style-routeros .hljs-name {
+.hljs-doctag,
+.hljs-name {
   font-weight: bold;
 }
 
-.hljs-style-routeros .hljs-attribute {
+.hljs-attribute {
   color: #0E9A00;
 }
 
-.hljs-style-routeros .hljs-function {
+.hljs-function {
   color: #99069A;
 }
 
 /* User color: hue: 0 */
 
-.hljs-style-routeros .hljs-type,
-.hljs-style-routeros .hljs-string,
-.hljs-style-routeros .hljs-number,
-.hljs-style-routeros .hljs-selector-id,
-.hljs-style-routeros .hljs-selector-class,
-.hljs-style-routeros .hljs-quote,
-.hljs-style-routeros .hljs-template-tag,
-.hljs-style-routeros .hljs-deletion {
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
   color: #880000;
 }
 
-.hljs-style-routeros .hljs-title,
-.hljs-style-routeros .hljs-section {
+.hljs-title,
+.hljs-section {
   color: #880000;
   font-weight: bold;
 }
 
-.hljs-style-routeros .hljs-regexp,
-.hljs-style-routeros .hljs-symbol,
-.hljs-style-routeros .hljs-variable,
-.hljs-style-routeros .hljs-template-variable,
-.hljs-style-routeros .hljs-link,
-.hljs-style-routeros .hljs-selector-attr,
-.hljs-style-routeros .hljs-selector-pseudo {
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
   color: #BC6060;
 }
 
 
 /* Language color: hue: 90; */
 
-.hljs-style-routeros .hljs-literal {
+.hljs-literal {
   color: #78A960;
 }
 
-.hljs-style-routeros .hljs-built_in,
-.hljs-style-routeros .hljs-bullet,
-.hljs-style-routeros .hljs-code,
-.hljs-style-routeros .hljs-addition {
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
   color: #0C9A9A;
 }
 
 
 /* Meta color: hue: 200 */
 
-.hljs-style-routeros .hljs-meta {
+.hljs-meta {
   color: #1f7199;
 }
 
-.hljs-style-routeros .hljs-meta .hljs-string {
+.hljs-meta .hljs-string {
   color: #4d99bf;
 }
 
 
 /* Misc effects */
 
-.hljs-style-routeros .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-routeros .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

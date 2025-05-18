@@ -7,61 +7,63 @@ Date: 2009-01-03
 Music: Aphex Twin / Xtal
 */
 
-.hljs-style-magula .hljs {
+.hljs-style-magula {
+.hljs {
   background-color: #f4f4f4;
   color: black;
 }
 
-.hljs-style-magula .hljs-subst {
+.hljs-subst {
   color: black;
 }
 
-.hljs-style-magula .hljs-string,
-.hljs-style-magula .hljs-title,
-.hljs-style-magula .hljs-symbol,
-.hljs-style-magula .hljs-bullet,
-.hljs-style-magula .hljs-attribute,
-.hljs-style-magula .hljs-addition,
-.hljs-style-magula .hljs-variable,
-.hljs-style-magula .hljs-template-tag,
-.hljs-style-magula .hljs-template-variable {
+.hljs-string,
+.hljs-title,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-attribute,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
   color: #050;
 }
 
-.hljs-style-magula .hljs-comment,
-.hljs-style-magula .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #777;
 }
 
-.hljs-style-magula .hljs-number,
-.hljs-style-magula .hljs-regexp,
-.hljs-style-magula .hljs-literal,
-.hljs-style-magula .hljs-type,
-.hljs-style-magula .hljs-link {
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-type,
+.hljs-link {
   color: #800;
 }
 
-.hljs-style-magula .hljs-deletion,
-.hljs-style-magula .hljs-meta {
+.hljs-deletion,
+.hljs-meta {
   color: #00e;
 }
 
-.hljs-style-magula .hljs-keyword,
-.hljs-style-magula .hljs-selector-tag,
-.hljs-style-magula .hljs-doctag,
-.hljs-style-magula .hljs-title,
-.hljs-style-magula .hljs-section,
-.hljs-style-magula .hljs-built_in,
-.hljs-style-magula .hljs-tag,
-.hljs-style-magula .hljs-name {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-built_in,
+.hljs-tag,
+.hljs-name {
   font-weight: bold;
   color: navy;
 }
 
-.hljs-style-magula .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-magula .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

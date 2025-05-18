@@ -2,67 +2,69 @@
 Monokai style - ported by Luigi Maselli - http://grigio.org
 */
 
-.hljs-style-monokai .hljs {
+.hljs-style-monokai {
+.hljs {
   background: #272822;
   color: #ddd;
 }
 
-.hljs-style-monokai .hljs-tag,
-.hljs-style-monokai .hljs-keyword,
-.hljs-style-monokai .hljs-selector-tag,
-.hljs-style-monokai .hljs-literal,
-.hljs-style-monokai .hljs-strong,
-.hljs-style-monokai .hljs-name {
+.hljs-tag,
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-strong,
+.hljs-name {
   color: #f92672;
 }
 
-.hljs-style-monokai .hljs-code {
+.hljs-code {
   color: #66d9ef;
 }
 
-.hljs-style-monokai .hljs-attribute,
-.hljs-style-monokai .hljs-symbol,
-.hljs-style-monokai .hljs-regexp,
-.hljs-style-monokai .hljs-link {
+.hljs-attribute,
+.hljs-symbol,
+.hljs-regexp,
+.hljs-link {
   color: #bf79db;
 }
 
-.hljs-style-monokai .hljs-string,
-.hljs-style-monokai .hljs-bullet,
-.hljs-style-monokai .hljs-subst,
-.hljs-style-monokai .hljs-title,
-.hljs-style-monokai .hljs-section,
-.hljs-style-monokai .hljs-emphasis,
-.hljs-style-monokai .hljs-type,
-.hljs-style-monokai .hljs-built_in,
-.hljs-style-monokai .hljs-selector-attr,
-.hljs-style-monokai .hljs-selector-pseudo,
-.hljs-style-monokai .hljs-addition,
-.hljs-style-monokai .hljs-variable,
-.hljs-style-monokai .hljs-template-tag,
-.hljs-style-monokai .hljs-template-variable {
+.hljs-string,
+.hljs-bullet,
+.hljs-subst,
+.hljs-title,
+.hljs-section,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
   color: #a6e22e;
 }
 
-.hljs-style-monokai .hljs-title.class_,
-.hljs-style-monokai .hljs-class .hljs-title {
+.hljs-title.class_,
+.hljs-class .hljs-title {
   color: white;
 }
 
-.hljs-style-monokai .hljs-comment,
-.hljs-style-monokai .hljs-quote,
-.hljs-style-monokai .hljs-deletion,
-.hljs-style-monokai .hljs-meta {
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
   color: #75715e;
 }
 
-.hljs-style-monokai .hljs-keyword,
-.hljs-style-monokai .hljs-selector-tag,
-.hljs-style-monokai .hljs-literal,
-.hljs-style-monokai .hljs-doctag,
-.hljs-style-monokai .hljs-title,
-.hljs-style-monokai .hljs-section,
-.hljs-style-monokai .hljs-type,
-.hljs-style-monokai .hljs-selector-id {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-selector-id {
   font-weight: bold;
+}
 }

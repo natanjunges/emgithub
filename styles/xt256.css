@@ -6,83 +6,85 @@
          : github.com/initbar
 */
 
-.hljs-style-xt256 .hljs {
+.hljs-style-xt256 {
+.hljs {
   color: #eaeaea;
   background: #000;
 }
 
-.hljs-style-xt256 .hljs-subst {
+.hljs-subst {
   color: #eaeaea;
 }
 
-.hljs-style-xt256 .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-xt256 .hljs-strong {
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-xt256 .hljs-type {
+.hljs-type {
   color: #eaeaea;
 }
 
-.hljs-style-xt256 .hljs-params {
+.hljs-params {
   color: #da0000;
 }
 
-.hljs-style-xt256 .hljs-literal,
-.hljs-style-xt256 .hljs-number,
-.hljs-style-xt256 .hljs-name {
+.hljs-literal,
+.hljs-number,
+.hljs-name {
   color: #ff0000;
   font-weight: bolder;
 }
 
-.hljs-style-xt256 .hljs-comment {
+.hljs-comment {
   color: #969896;
 }
 
-.hljs-style-xt256 .hljs-selector-id,
-.hljs-style-xt256 .hljs-quote {
+.hljs-selector-id,
+.hljs-quote {
   color: #00ffff;
 }
 
-.hljs-style-xt256 .hljs-template-variable,
-.hljs-style-xt256 .hljs-variable,
-.hljs-style-xt256 .hljs-title {
+.hljs-template-variable,
+.hljs-variable,
+.hljs-title {
   color: #00ffff;
   font-weight: bold;
 }
 
-.hljs-style-xt256 .hljs-selector-class,
-.hljs-style-xt256 .hljs-keyword,
-.hljs-style-xt256 .hljs-symbol {
+.hljs-selector-class,
+.hljs-keyword,
+.hljs-symbol {
   color: #fff000;
 }
 
-.hljs-style-xt256 .hljs-string,
-.hljs-style-xt256 .hljs-bullet {
+.hljs-string,
+.hljs-bullet {
   color: #00ff00;
 }
 
-.hljs-style-xt256 .hljs-tag,
-.hljs-style-xt256 .hljs-section {
+.hljs-tag,
+.hljs-section {
   color: #000fff;
 }
 
-.hljs-style-xt256 .hljs-selector-tag {
+.hljs-selector-tag {
   color: #000fff;
   font-weight: bold;
 }
 
-.hljs-style-xt256 .hljs-attribute,
-.hljs-style-xt256 .hljs-built_in,
-.hljs-style-xt256 .hljs-regexp,
-.hljs-style-xt256 .hljs-link {
+.hljs-attribute,
+.hljs-built_in,
+.hljs-regexp,
+.hljs-link {
   color: #ff00ff;
 }
 
-.hljs-style-xt256 .hljs-meta {
+.hljs-meta {
   color: #fff;
   font-weight: bolder;
+}
 }

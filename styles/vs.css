@@ -3,63 +3,65 @@
 Visual Studio-like style based on original C# coloring by Jason Diamond <jason@diamond.name>
 
 */
-.hljs-style-vs .hljs {
+.hljs-style-vs {
+.hljs {
   background: white;
   color: black;
 }
 
-.hljs-style-vs .hljs-comment,
-.hljs-style-vs .hljs-quote,
-.hljs-style-vs .hljs-variable {
+.hljs-comment,
+.hljs-quote,
+.hljs-variable {
   color: #008000;
 }
 
-.hljs-style-vs .hljs-keyword,
-.hljs-style-vs .hljs-selector-tag,
-.hljs-style-vs .hljs-built_in,
-.hljs-style-vs .hljs-name,
-.hljs-style-vs .hljs-tag {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-built_in,
+.hljs-name,
+.hljs-tag {
   color: #00f;
 }
 
-.hljs-style-vs .hljs-string,
-.hljs-style-vs .hljs-title,
-.hljs-style-vs .hljs-section,
-.hljs-style-vs .hljs-attribute,
-.hljs-style-vs .hljs-literal,
-.hljs-style-vs .hljs-template-tag,
-.hljs-style-vs .hljs-template-variable,
-.hljs-style-vs .hljs-type,
-.hljs-style-vs .hljs-addition {
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
   color: #a31515;
 }
 
-.hljs-style-vs .hljs-deletion,
-.hljs-style-vs .hljs-selector-attr,
-.hljs-style-vs .hljs-selector-pseudo,
-.hljs-style-vs .hljs-meta {
+.hljs-deletion,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-meta {
   color: #2b91af;
 }
 
-.hljs-style-vs .hljs-doctag {
+.hljs-doctag {
   color: #808080;
 }
 
-.hljs-style-vs .hljs-attr {
+.hljs-attr {
   color: #f00;
 }
 
-.hljs-style-vs .hljs-symbol,
-.hljs-style-vs .hljs-bullet,
-.hljs-style-vs .hljs-link {
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link {
   color: #00b0e8;
 }
 
 
-.hljs-style-vs .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-vs .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

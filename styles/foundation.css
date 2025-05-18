@@ -6,83 +6,85 @@ Version: 1.0
 Date: 2013-04-02
 */
 
-.hljs-style-foundation .hljs {
+.hljs-style-foundation {
+.hljs {
   background: #eee;
   color: black;
 }
 
-.hljs-style-foundation .hljs-link,
-.hljs-style-foundation .hljs-emphasis,
-.hljs-style-foundation .hljs-attribute,
-.hljs-style-foundation .hljs-addition {
+.hljs-link,
+.hljs-emphasis,
+.hljs-attribute,
+.hljs-addition {
   color: #070;
 }
 
-.hljs-style-foundation .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-foundation .hljs-strong,
-.hljs-style-foundation .hljs-string,
-.hljs-style-foundation .hljs-deletion {
+.hljs-strong,
+.hljs-string,
+.hljs-deletion {
   color: #d14;
 }
 
-.hljs-style-foundation .hljs-strong {
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-foundation .hljs-quote,
-.hljs-style-foundation .hljs-comment {
+.hljs-quote,
+.hljs-comment {
   color: #998;
   font-style: italic;
 }
 
-.hljs-style-foundation .hljs-section,
-.hljs-style-foundation .hljs-title {
+.hljs-section,
+.hljs-title {
   color: #900;
 }
 
 
-.hljs-style-foundation .hljs-class .hljs-title,
-.hljs-style-foundation .hljs-title.class_,
-.hljs-style-foundation .hljs-type {
+.hljs-class .hljs-title,
+.hljs-title.class_,
+.hljs-type {
   color: #458;
 }
 
-.hljs-style-foundation .hljs-variable,
-.hljs-style-foundation .hljs-template-variable {
+.hljs-variable,
+.hljs-template-variable {
   color: #336699;
 }
 
-.hljs-style-foundation .hljs-bullet {
+.hljs-bullet {
   color: #997700;
 }
 
-.hljs-style-foundation .hljs-meta {
+.hljs-meta {
   color: #3344bb;
 }
 
-.hljs-style-foundation .hljs-code,
-.hljs-style-foundation .hljs-number,
-.hljs-style-foundation .hljs-literal,
-.hljs-style-foundation .hljs-keyword,
-.hljs-style-foundation .hljs-selector-tag {
+.hljs-code,
+.hljs-number,
+.hljs-literal,
+.hljs-keyword,
+.hljs-selector-tag {
   color: #099;
 }
 
-.hljs-style-foundation .hljs-regexp {
+.hljs-regexp {
   background-color: #fff0ff;
   color: #880088;
 }
 
-.hljs-style-foundation .hljs-symbol {
+.hljs-symbol {
   color: #990073;
 }
 
-.hljs-style-foundation .hljs-tag,
-.hljs-style-foundation .hljs-name,
-.hljs-style-foundation .hljs-selector-id,
-.hljs-style-foundation .hljs-selector-class {
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
   color: #007700;
+}
 }

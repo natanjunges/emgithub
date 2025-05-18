@@ -4,65 +4,67 @@
     Inspired by the art of Rubens LP (http://www.rubenslp.com.br)
 */
 
-.hljs-style-paraiso-dark .hljs {
+.hljs-style-paraiso-dark {
+.hljs {
   background: #2f1e2e;
   color: #a39e9b;
 }
 
 /* Paraíso Comment */
-.hljs-style-paraiso-dark .hljs-comment,
-.hljs-style-paraiso-dark .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #8d8687;
 }
 
 /* Paraíso Red */
-.hljs-style-paraiso-dark .hljs-variable,
-.hljs-style-paraiso-dark .hljs-template-variable,
-.hljs-style-paraiso-dark .hljs-tag,
-.hljs-style-paraiso-dark .hljs-name,
-.hljs-style-paraiso-dark .hljs-selector-id,
-.hljs-style-paraiso-dark .hljs-selector-class,
-.hljs-style-paraiso-dark .hljs-regexp,
-.hljs-style-paraiso-dark .hljs-link,
-.hljs-style-paraiso-dark .hljs-meta {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-link,
+.hljs-meta {
   color: #ef6155;
 }
 
 /* Paraíso Orange */
-.hljs-style-paraiso-dark .hljs-number,
-.hljs-style-paraiso-dark .hljs-built_in,
-.hljs-style-paraiso-dark .hljs-literal,
-.hljs-style-paraiso-dark .hljs-type,
-.hljs-style-paraiso-dark .hljs-params,
-.hljs-style-paraiso-dark .hljs-deletion {
+.hljs-number,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion {
   color: #f99b15;
 }
 
 /* Paraíso Yellow */
-.hljs-style-paraiso-dark .hljs-title,
-.hljs-style-paraiso-dark .hljs-section,
-.hljs-style-paraiso-dark .hljs-attribute {
+.hljs-title,
+.hljs-section,
+.hljs-attribute {
   color: #fec418;
 }
 
 /* Paraíso Green */
-.hljs-style-paraiso-dark .hljs-string,
-.hljs-style-paraiso-dark .hljs-symbol,
-.hljs-style-paraiso-dark .hljs-bullet,
-.hljs-style-paraiso-dark .hljs-addition {
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
   color: #48b685;
 }
 
 /* Paraíso Purple */
-.hljs-style-paraiso-dark .hljs-keyword,
-.hljs-style-paraiso-dark .hljs-selector-tag {
+.hljs-keyword,
+.hljs-selector-tag {
   color: #815ba4;
 }
 
-.hljs-style-paraiso-dark .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-paraiso-dark .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

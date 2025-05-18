@@ -5,66 +5,68 @@
     URL:      https://github.com/idleberg/Kimbie-highlight.js
 */
 
-.hljs-style-kimbie-dark .hljs {
+.hljs-style-kimbie-dark {
+.hljs {
   background: #221a0f;
   color: #d3af86;
 }
 
 /* Kimbie Comment */
-.hljs-style-kimbie-dark .hljs-comment,
-.hljs-style-kimbie-dark .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #d6baad;
 }
 
 /* Kimbie Red */
-.hljs-style-kimbie-dark .hljs-variable,
-.hljs-style-kimbie-dark .hljs-template-variable,
-.hljs-style-kimbie-dark .hljs-tag,
-.hljs-style-kimbie-dark .hljs-name,
-.hljs-style-kimbie-dark .hljs-selector-id,
-.hljs-style-kimbie-dark .hljs-selector-class,
-.hljs-style-kimbie-dark .hljs-regexp,
-.hljs-style-kimbie-dark .hljs-meta {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-meta {
   color: #dc3958;
 }
 
 /* Kimbie Orange */
-.hljs-style-kimbie-dark .hljs-number,
-.hljs-style-kimbie-dark .hljs-built_in,
-.hljs-style-kimbie-dark .hljs-literal,
-.hljs-style-kimbie-dark .hljs-type,
-.hljs-style-kimbie-dark .hljs-params,
-.hljs-style-kimbie-dark .hljs-deletion,
-.hljs-style-kimbie-dark .hljs-link {
+.hljs-number,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion,
+.hljs-link {
   color: #f79a32;
 }
 
 /* Kimbie Green */
-.hljs-style-kimbie-dark .hljs-string,
-.hljs-style-kimbie-dark .hljs-symbol,
-.hljs-style-kimbie-dark .hljs-bullet,
-.hljs-style-kimbie-dark .hljs-addition {
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
   color: #889b4a;
 }
 
 /* Kimbie Purple */
-.hljs-style-kimbie-dark .hljs-keyword,
-.hljs-style-kimbie-dark .hljs-selector-tag,
-.hljs-style-kimbie-dark .hljs-function {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function {
   color: #98676a;
 }
 
 /* Kimbie Yellow */
-.hljs-style-kimbie-dark .hljs-title,
-.hljs-style-kimbie-dark .hljs-section,
-.hljs-style-kimbie-dark .hljs-attribute {
+.hljs-title,
+.hljs-section,
+.hljs-attribute {
   color: #f06431;
 }
 
-.hljs-style-kimbie-dark .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-kimbie-dark .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

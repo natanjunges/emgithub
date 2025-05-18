@@ -4,73 +4,75 @@ GML Theme - Meseta <meseta@gmail.com>
 
 */
 
-.hljs-style-gml .hljs {
+.hljs-style-gml {
+.hljs {
   background: #222222;
   color: #C0C0C0;
 }
 
-.hljs-style-gml .hljs-keyword {
+.hljs-keyword {
   color: #FFB871;
   font-weight: bold;
 }
 
-.hljs-style-gml .hljs-built_in {
+.hljs-built_in {
   color: #FFB871;
 }
 
-.hljs-style-gml .hljs-literal {
+.hljs-literal {
   color: #FF8080;
 }
 
-.hljs-style-gml .hljs-symbol {
+.hljs-symbol {
   color: #58E55A;
 }
 
-.hljs-style-gml .hljs-comment {
+.hljs-comment {
   color: #5B995B;
 }
 
-.hljs-style-gml .hljs-string {
+.hljs-string {
   color: #FFFF00;
 }
 
-.hljs-style-gml .hljs-number {
+.hljs-number {
   color: #FF8080;
 }
 
-.hljs-style-gml .hljs-attribute,
-.hljs-style-gml .hljs-selector-tag,
-.hljs-style-gml .hljs-doctag,
-.hljs-style-gml .hljs-name,
-.hljs-style-gml .hljs-bullet,
-.hljs-style-gml .hljs-code,
-.hljs-style-gml .hljs-addition,
-.hljs-style-gml .hljs-regexp,
-.hljs-style-gml .hljs-variable,
-.hljs-style-gml .hljs-template-variable,
-.hljs-style-gml .hljs-link,
-.hljs-style-gml .hljs-selector-attr,
-.hljs-style-gml .hljs-selector-pseudo,
-.hljs-style-gml .hljs-type,
-.hljs-style-gml .hljs-selector-id,
-.hljs-style-gml .hljs-selector-class,
-.hljs-style-gml .hljs-quote,
-.hljs-style-gml .hljs-template-tag,
-.hljs-style-gml .hljs-deletion,
-.hljs-style-gml .hljs-title,
-.hljs-style-gml .hljs-section,
-.hljs-style-gml .hljs-function,
-.hljs-style-gml .hljs-meta .hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-name,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition,
+.hljs-regexp,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-type,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion,
+.hljs-title,
+.hljs-section,
+.hljs-function,
+.hljs-meta .hljs-keyword,
 
-.hljs-style-gml .hljs-meta,
-.hljs-style-gml .hljs-subst {
+.hljs-meta,
+.hljs-subst {
   color: #C0C0C0;
 }
 
-.hljs-style-gml .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-gml .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

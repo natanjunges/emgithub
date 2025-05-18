@@ -7,86 +7,88 @@ Website: https://srcery-colors.github.io/
 Date: 2021-04-13
 */
 
-.hljs-style-srcery .hljs {
+.hljs-style-srcery {
+.hljs {
   background: #1C1B19; /* Black */
   color: #FCE8C3; /* Bright White */
 }
 
 /* Bright White */
-.hljs-style-srcery .hljs-subst,
-.hljs-style-srcery .hljs-quote,
-.hljs-style-srcery .hljs-literal {
+.hljs-subst,
+.hljs-quote,
+.hljs-literal {
   color: #FCE8C3;
 }
 
 /* Bright Blue */
-.hljs-style-srcery .hljs-type,
-.hljs-style-srcery .hljs-symbol {
+.hljs-type,
+.hljs-symbol {
   color: #68A8E4;
 }
 
 /* Red */
-.hljs-style-srcery .hljs-keyword,
-.hljs-style-srcery .hljs-deletion {
+.hljs-keyword,
+.hljs-deletion {
   color: #EF2F27;
 }
 
 /* Yellow */
-.hljs-style-srcery .hljs-name,
-.hljs-style-srcery .hljs-function,
-.hljs-style-srcery .hljs-attribute,
-.hljs-style-srcery .hljs-selector-attr,
-.hljs-style-srcery .hljs-selector-id,
-.hljs-style-srcery .hljs-selector-class,
-.hljs-style-srcery .hljs-selector-pseudo,
-.hljs-style-srcery .hljs-section,
-.hljs-style-srcery .hljs-title {
+.hljs-name,
+.hljs-function,
+.hljs-attribute,
+.hljs-selector-attr,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-pseudo,
+.hljs-section,
+.hljs-title {
   color: #FBB829;
 }
 
 /* Cyan */
-.hljs-style-srcery .hljs-code,
-.hljs-style-srcery .hljs-variable,
-.hljs-style-srcery .hljs-property,
-.hljs-style-srcery .hljs-template-variable,
-.hljs-style-srcery .hljs-class {
+.hljs-code,
+.hljs-variable,
+.hljs-property,
+.hljs-template-variable,
+.hljs-class {
   color: #0AAEB3;
 }
 
 /* Bright Green */
-.hljs-style-srcery .hljs-string,
-.hljs-style-srcery .hljs-regexp,
-.hljs-style-srcery .hljs-bullet,
-.hljs-style-srcery .hljs-addition {
+.hljs-string,
+.hljs-regexp,
+.hljs-bullet,
+.hljs-addition {
   color: #98BC37;
 }
 
 /* Bright Magenta */
-.hljs-style-srcery .hljs-built_in,
-.hljs-style-srcery .hljs-params {
+.hljs-built_in,
+.hljs-params {
   color: #FF5C8F;
 }
 
 /* Blue */
-.hljs-style-srcery .hljs-template-tag,
-.hljs-style-srcery .hljs-selector-tag {
+.hljs-template-tag,
+.hljs-selector-tag {
   color: #2C78BF;
 }
 
 /* Bright Black */
-.hljs-style-srcery .hljs-link,
-.hljs-style-srcery .hljs-number,
-.hljs-style-srcery .hljs-comment,
-.hljs-style-srcery .hljs-meta {
+.hljs-link,
+.hljs-number,
+.hljs-comment,
+.hljs-meta {
   color: #918175;
 }
 
-.hljs-style-srcery .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-srcery .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }
 
 /* @see https://github.com/srcery-colors/srcery-emacs for reference */

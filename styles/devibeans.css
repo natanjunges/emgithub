@@ -6,92 +6,94 @@
     Inspired by vim's jellybeans theme (https://github.com/nanotech/jellybeans.vim)
 */
 
-.hljs-style-devibeans .hljs {
+.hljs-style-devibeans {
+.hljs {
   background: #000000;
   color: #a39e9b;
 }
 
-.hljs-style-devibeans .hljs-attr,
-.hljs-style-devibeans .hljs-template-tag {
+.hljs-attr,
+.hljs-template-tag {
   color: #8787d7;
 }
 
-.hljs-style-devibeans .hljs-comment,
-.hljs-style-devibeans .hljs-doctag,
-.hljs-style-devibeans .hljs-quote {
+.hljs-comment,
+.hljs-doctag,
+.hljs-quote {
   color: #339966;
 }
 
-.hljs-style-devibeans .hljs-params {
+.hljs-params {
   color: #a39e9b;
 }
 
-.hljs-style-devibeans .hljs-regexp {
+.hljs-regexp {
   color: #d700ff;
 }
 
-.hljs-style-devibeans .hljs-tag,
-.hljs-style-devibeans .hljs-selector-id,
-.hljs-style-devibeans .hljs-number,
-.hljs-style-devibeans .hljs-literal {
+.hljs-tag,
+.hljs-selector-id,
+.hljs-number,
+.hljs-literal {
   color: #ef5350;
 }
 
-.hljs-style-devibeans .hljs-meta,
-.hljs-style-devibeans .hljs-meta .hljs-keyword {
+.hljs-meta,
+.hljs-meta .hljs-keyword {
 
   color: #0087ff;
 }
 
 /* opt-out */
-.hljs-style-devibeans .hljs-operator,
-.hljs-style-devibeans .hljs-punctuation{
+.hljs-operator,
+.hljs-punctuation{
 }
 
-.hljs-style-devibeans .hljs-selector-class,
-.hljs-style-devibeans .hljs-code,
-.hljs-style-devibeans .hljs-formula,
-.hljs-style-devibeans .hljs-variable,
-.hljs-style-devibeans .hljs-template-variable,
-.hljs-style-devibeans .hljs-selector-attr,
-.hljs-style-devibeans .hljs-selector-pseudo,
-.hljs-style-devibeans .hljs-link,
-.hljs-style-devibeans .hljs-keyword {
+.hljs-selector-class,
+.hljs-code,
+.hljs-formula,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-link,
+.hljs-keyword {
   color: #64b5f6;
 }
 
-.hljs-style-devibeans .hljs-built_in,
-.hljs-style-devibeans .hljs-title,
-.hljs-style-devibeans .hljs-deletion {
+.hljs-built_in,
+.hljs-title,
+.hljs-deletion {
   color: #ff8700;
 }
 
-.hljs-style-devibeans .hljs-type,
-.hljs-style-devibeans .hljs-section,
-.hljs-style-devibeans .hljs-function,
-.hljs-style-devibeans .hljs-name,
-.hljs-style-devibeans .hljs-property,
-.hljs-style-devibeans .hljs-attribute {
+.hljs-type,
+.hljs-section,
+.hljs-function,
+.hljs-name,
+.hljs-property,
+.hljs-attribute {
   color: #ffd75f;
 }
 
-.hljs-style-devibeans .hljs-meta .hljs-string,
-.hljs-style-devibeans .hljs-string,
-.hljs-style-devibeans .hljs-subst,
-.hljs-style-devibeans .hljs-symbol,
-.hljs-style-devibeans .hljs-bullet,
-.hljs-style-devibeans .hljs-addition {
+.hljs-meta .hljs-string,
+.hljs-string,
+.hljs-subst,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
   color: #558b2f;
 }
 
-.hljs-style-devibeans .hljs-selector-tag {
+.hljs-selector-tag {
   color: #9966ff;
 }
 
-.hljs-style-devibeans .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-devibeans .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

@@ -5,66 +5,68 @@
     URL:      https://github.com/idleberg/Kimbie-highlight.js
 */
 
-.hljs-style-kimbie-light .hljs {
+.hljs-style-kimbie-light {
+.hljs {
   background: #fbebd4;
   color: #84613d;
 }
 
 /* Kimbie Comment */
-.hljs-style-kimbie-light .hljs-comment,
-.hljs-style-kimbie-light .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #a57a4c;
 }
 
 /* Kimbie Red */
-.hljs-style-kimbie-light .hljs-variable,
-.hljs-style-kimbie-light .hljs-template-variable,
-.hljs-style-kimbie-light .hljs-tag,
-.hljs-style-kimbie-light .hljs-name,
-.hljs-style-kimbie-light .hljs-selector-id,
-.hljs-style-kimbie-light .hljs-selector-class,
-.hljs-style-kimbie-light .hljs-regexp,
-.hljs-style-kimbie-light .hljs-meta {
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-meta {
   color: #dc3958;
 }
 
 /* Kimbie Orange */
-.hljs-style-kimbie-light .hljs-number,
-.hljs-style-kimbie-light .hljs-built_in,
-.hljs-style-kimbie-light .hljs-literal,
-.hljs-style-kimbie-light .hljs-type,
-.hljs-style-kimbie-light .hljs-params,
-.hljs-style-kimbie-light .hljs-deletion,
-.hljs-style-kimbie-light .hljs-link {
+.hljs-number,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-deletion,
+.hljs-link {
   color: #f79a32;
 }
 
 /* Kimbie Green */
-.hljs-style-kimbie-light .hljs-string,
-.hljs-style-kimbie-light .hljs-symbol,
-.hljs-style-kimbie-light .hljs-bullet,
-.hljs-style-kimbie-light .hljs-addition {
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
   color: #889b4a;
 }
 
 /* Kimbie Purple */
-.hljs-style-kimbie-light .hljs-keyword,
-.hljs-style-kimbie-light .hljs-selector-tag,
-.hljs-style-kimbie-light .hljs-function {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-function {
   color: #98676a;
 }
 
 /* Kimbie Yellow */
-.hljs-style-kimbie-light .hljs-title,
-.hljs-style-kimbie-light .hljs-section,
-.hljs-style-kimbie-light .hljs-attribute {
+.hljs-title,
+.hljs-section,
+.hljs-attribute {
   color: #f06431;
 }
 
-.hljs-style-kimbie-light .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-kimbie-light .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }

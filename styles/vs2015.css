@@ -3,110 +3,112 @@
  * Author: Nicolas LLOBERA <nllobera@gmail.com>
  */
 
-.hljs-style-vs2015 .hljs {
+.hljs-style-vs2015 {
+.hljs {
   background: #1E1E1E;
   color: #DCDCDC;
 }
 
-.hljs-style-vs2015 .hljs-keyword,
-.hljs-style-vs2015 .hljs-literal,
-.hljs-style-vs2015 .hljs-symbol,
-.hljs-style-vs2015 .hljs-name {
+.hljs-keyword,
+.hljs-literal,
+.hljs-symbol,
+.hljs-name {
   color: #569CD6;
 }
-.hljs-style-vs2015 .hljs-link {
+.hljs-link {
   color: #569CD6;
   text-decoration: underline;
 }
 
-.hljs-style-vs2015 .hljs-built_in,
-.hljs-style-vs2015 .hljs-type {
+.hljs-built_in,
+.hljs-type {
   color: #4EC9B0;
 }
 
-.hljs-style-vs2015 .hljs-number,
-.hljs-style-vs2015 .hljs-class {
+.hljs-number,
+.hljs-class {
   color: #B8D7A3;
 }
 
-.hljs-style-vs2015 .hljs-string,
-.hljs-style-vs2015 .hljs-meta .hljs-string {
+.hljs-string,
+.hljs-meta .hljs-string {
   color: #D69D85;
 }
 
-.hljs-style-vs2015 .hljs-regexp,
-.hljs-style-vs2015 .hljs-template-tag {
+.hljs-regexp,
+.hljs-template-tag {
   color: #9A5334;
 }
 
-.hljs-style-vs2015 .hljs-subst,
-.hljs-style-vs2015 .hljs-function,
-.hljs-style-vs2015 .hljs-title,
-.hljs-style-vs2015 .hljs-params,
-.hljs-style-vs2015 .hljs-formula {
+.hljs-subst,
+.hljs-function,
+.hljs-title,
+.hljs-params,
+.hljs-formula {
   color: #DCDCDC;
 }
 
-.hljs-style-vs2015 .hljs-comment,
-.hljs-style-vs2015 .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #57A64A;
   font-style: italic;
 }
 
-.hljs-style-vs2015 .hljs-doctag {
+.hljs-doctag {
   color: #608B4E;
 }
 
-.hljs-style-vs2015 .hljs-meta,
-.hljs-style-vs2015 .hljs-meta .hljs-keyword,
+.hljs-meta,
+.hljs-meta .hljs-keyword,
 
-.hljs-style-vs2015 .hljs-tag {
+.hljs-tag {
   color: #9B9B9B;
 }
 
-.hljs-style-vs2015 .hljs-variable,
-.hljs-style-vs2015 .hljs-template-variable {
+.hljs-variable,
+.hljs-template-variable {
   color: #BD63C5;
 }
 
-.hljs-style-vs2015 .hljs-attr,
-.hljs-style-vs2015 .hljs-attribute {
+.hljs-attr,
+.hljs-attribute {
   color: #9CDCFE;
 }
 
-.hljs-style-vs2015 .hljs-section {
+.hljs-section {
   color: gold;
 }
 
-.hljs-style-vs2015 .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-vs2015 .hljs-strong {
+.hljs-strong {
   font-weight: bold;
 }
 
-/*.hljs-style-vs2015 .hljs-code {
+/*.hljs-code {
   font-family:'Monospace';
 }*/
 
-.hljs-style-vs2015 .hljs-bullet,
-.hljs-style-vs2015 .hljs-selector-tag,
-.hljs-style-vs2015 .hljs-selector-id,
-.hljs-style-vs2015 .hljs-selector-class,
-.hljs-style-vs2015 .hljs-selector-attr,
-.hljs-style-vs2015 .hljs-selector-pseudo {
+.hljs-bullet,
+.hljs-selector-tag,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
   color: #D7BA7D;
 }
 
-.hljs-style-vs2015 .hljs-addition {
+.hljs-addition {
   background-color: #144212;
   display: inline-block;
   width: 100%;
 }
 
-.hljs-style-vs2015 .hljs-deletion {
+.hljs-deletion {
   background-color: #600;
   display: inline-block;
   width: 100%;
+}
 }

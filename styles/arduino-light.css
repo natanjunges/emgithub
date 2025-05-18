@@ -4,82 +4,84 @@ Arduino® Light Theme - Stefania Mellai <s.mellai@arduino.cc>
 
 */
 
-.hljs-style-arduino-light .hljs {
+.hljs-style-arduino-light {
+.hljs {
   background: white;
   color: #434f54;
 }
 
-.hljs-style-arduino-light .hljs-subst {
+.hljs-subst {
   color: #434f54;
 }
 
-.hljs-style-arduino-light .hljs-keyword,
-.hljs-style-arduino-light .hljs-attribute,
-.hljs-style-arduino-light .hljs-selector-tag,
-.hljs-style-arduino-light .hljs-doctag,
-.hljs-style-arduino-light .hljs-name {
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-doctag,
+.hljs-name {
   color: #00979D;
 }
 
-.hljs-style-arduino-light .hljs-built_in,
-.hljs-style-arduino-light .hljs-literal,
-.hljs-style-arduino-light .hljs-bullet,
-.hljs-style-arduino-light .hljs-code,
-.hljs-style-arduino-light .hljs-addition {
+.hljs-built_in,
+.hljs-literal,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
   color: #D35400;
 }
 
-.hljs-style-arduino-light .hljs-regexp,
-.hljs-style-arduino-light .hljs-symbol,
-.hljs-style-arduino-light .hljs-variable,
-.hljs-style-arduino-light .hljs-template-variable,
-.hljs-style-arduino-light .hljs-link,
-.hljs-style-arduino-light .hljs-selector-attr,
-.hljs-style-arduino-light .hljs-selector-pseudo {
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
   color: #00979D;
 }
 
-.hljs-style-arduino-light .hljs-type,
-.hljs-style-arduino-light .hljs-string,
-.hljs-style-arduino-light .hljs-selector-id,
-.hljs-style-arduino-light .hljs-selector-class,
-.hljs-style-arduino-light .hljs-quote,
-.hljs-style-arduino-light .hljs-template-tag,
-.hljs-style-arduino-light .hljs-deletion {
+.hljs-type,
+.hljs-string,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
   color: #005C5F;
 }
 
-.hljs-style-arduino-light .hljs-comment {
+.hljs-comment {
   color: rgba(149,165,166,.8);
 }
 
-.hljs-style-arduino-light .hljs-meta .hljs-keyword {
+.hljs-meta .hljs-keyword {
 
   color: #728E00;
 }
 
-.hljs-style-arduino-light .hljs-meta {
+.hljs-meta {
   color: #434f54;
 }
 
-.hljs-style-arduino-light .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-arduino-light .hljs-strong {
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-arduino-light .hljs-function {
+.hljs-function {
   color: #728E00;
 }
 
-.hljs-style-arduino-light .hljs-title,
-.hljs-style-arduino-light .hljs-section {
+.hljs-title,
+.hljs-section {
   color: #880000;
   font-weight: bold;
 }
 
-.hljs-style-arduino-light .hljs-number {
+.hljs-number {
   color: #8A7B52;
+}
 }

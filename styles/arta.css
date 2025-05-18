@@ -3,67 +3,69 @@ Date: 17.V.2011
 Author: pumbur <pumbur@pumbur.net>
 */
 
-.hljs-style-arta .hljs {
+.hljs-style-arta {
+.hljs {
   background: #222;
   color: #aaa;
 }
 
-.hljs-style-arta .hljs-subst {
+.hljs-subst {
   color: #aaa;
 }
 
-.hljs-style-arta .hljs-section {
+.hljs-section {
   color: #fff;
 }
 
-.hljs-style-arta .hljs-comment,
-.hljs-style-arta .hljs-quote,
-.hljs-style-arta .hljs-meta {
+.hljs-comment,
+.hljs-quote,
+.hljs-meta {
   color: #444;
 }
 
-.hljs-style-arta .hljs-string,
-.hljs-style-arta .hljs-symbol,
-.hljs-style-arta .hljs-bullet,
-.hljs-style-arta .hljs-regexp {
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-regexp {
   color: #ffcc33;
 }
 
-.hljs-style-arta .hljs-number,
-.hljs-style-arta .hljs-addition {
+.hljs-number,
+.hljs-addition {
   color: #00cc66;
 }
 
-.hljs-style-arta .hljs-built_in,
-.hljs-style-arta .hljs-literal,
-.hljs-style-arta .hljs-type,
-.hljs-style-arta .hljs-template-variable,
-.hljs-style-arta .hljs-attribute,
-.hljs-style-arta .hljs-link {
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-template-variable,
+.hljs-attribute,
+.hljs-link {
   color: #32aaee;
 }
 
-.hljs-style-arta .hljs-keyword,
-.hljs-style-arta .hljs-selector-tag,
-.hljs-style-arta .hljs-name,
-.hljs-style-arta .hljs-selector-id,
-.hljs-style-arta .hljs-selector-class {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class {
   color: #6644aa;
 }
 
-.hljs-style-arta .hljs-title,
-.hljs-style-arta .hljs-variable,
-.hljs-style-arta .hljs-deletion,
-.hljs-style-arta .hljs-template-tag {
+.hljs-title,
+.hljs-variable,
+.hljs-deletion,
+.hljs-template-tag {
   color: #bb1166;
 }
 
-.hljs-style-arta .hljs-section,
-.hljs-style-arta .hljs-doctag,
-.hljs-style-arta .hljs-strong {
+.hljs-section,
+.hljs-doctag,
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-arta .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
+}
 }

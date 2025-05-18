@@ -9,106 +9,108 @@
   @version 1.1.0
 */
 
-.hljs-style-nnfx-light .hljs {
+.hljs-style-nnfx-light {
+.hljs {
   background: #fff;
   color: #000;
 }
 
-.hljs-style-nnfx-light .language-xml .hljs-meta,
-.hljs-style-nnfx-light .language-xml .hljs-meta-string {
+.language-xml .hljs-meta,
+.language-xml .hljs-meta-string {
   font-weight: bold;
   font-style: italic;
   color: #48b;
 }
 
-.hljs-style-nnfx-light .hljs-comment,
-.hljs-style-nnfx-light .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   font-style: italic;
   color: #070;
 }
 
-.hljs-style-nnfx-light .hljs-name,
-.hljs-style-nnfx-light .hljs-keyword,
-.hljs-style-nnfx-light .hljs-built_in {
+.hljs-name,
+.hljs-keyword,
+.hljs-built_in {
   color: #808;
 }
 
-.hljs-style-nnfx-light .hljs-name,
-.hljs-style-nnfx-light .hljs-attr {
+.hljs-name,
+.hljs-attr {
   font-weight: bold;
 }
 
-.hljs-style-nnfx-light .hljs-string {
+.hljs-string {
   font-weight: normal;
 }
 
-.hljs-style-nnfx-light .hljs-code,
-.hljs-style-nnfx-light .hljs-string,
-.hljs-style-nnfx-light .hljs-meta .hljs-string,
-.hljs-style-nnfx-light .hljs-number,
-.hljs-style-nnfx-light .hljs-regexp,
-.hljs-style-nnfx-light .hljs-link {
+.hljs-code,
+.hljs-string,
+.hljs-meta .hljs-string,
+.hljs-number,
+.hljs-regexp,
+.hljs-link {
   color: #00f;
 }
 
-.hljs-style-nnfx-light .hljs-title,
-.hljs-style-nnfx-light .hljs-symbol,
-.hljs-style-nnfx-light .hljs-bullet,
-.hljs-style-nnfx-light .hljs-variable,
-.hljs-style-nnfx-light .hljs-template-variable {
+.hljs-title,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-variable,
+.hljs-template-variable {
   color: #f40;
 }
 
-.hljs-style-nnfx-light .hljs-title.class_,
-.hljs-style-nnfx-light .hljs-class .hljs-title,
-.hljs-style-nnfx-light .hljs-type {
+.hljs-title.class_,
+.hljs-class .hljs-title,
+.hljs-type {
   font-weight: bold;
   color: #639;
 }
 
-.hljs-style-nnfx-light .hljs-title.function_,
-.hljs-style-nnfx-light .hljs-function .hljs-title,
-.hljs-style-nnfx-light .hljs-attr,
-.hljs-style-nnfx-light .hljs-subst,
-.hljs-style-nnfx-light .hljs-tag {
+.hljs-title.function_,
+.hljs-function .hljs-title,
+.hljs-attr,
+.hljs-subst,
+.hljs-tag {
   color: #000;
 }
 
-.hljs-style-nnfx-light .hljs-formula {
+.hljs-formula {
   background-color: #eee;
   font-style: italic;
 }
 
-.hljs-style-nnfx-light .hljs-addition {
+.hljs-addition {
   background-color: #beb;
 }
 
-.hljs-style-nnfx-light .hljs-deletion {
+.hljs-deletion {
   background-color: #fbb;
 }
 
-.hljs-style-nnfx-light .hljs-meta {
+.hljs-meta {
   color: #269;
 }
 
-.hljs-style-nnfx-light .hljs-section,
-.hljs-style-nnfx-light .hljs-selector-id,
-.hljs-style-nnfx-light .hljs-selector-class,
-.hljs-style-nnfx-light .hljs-selector-pseudo,
-.hljs-style-nnfx-light .hljs-selector-tag {
+.hljs-section,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-selector-pseudo,
+.hljs-selector-tag {
   font-weight: bold;
   color: #48b;
 }
 
-.hljs-style-nnfx-light .hljs-selector-pseudo {
+.hljs-selector-pseudo {
   font-style: italic;
 }
 
-.hljs-style-nnfx-light .hljs-doctag,
-.hljs-style-nnfx-light .hljs-strong {
+.hljs-doctag,
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-nnfx-light .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
+}
 }

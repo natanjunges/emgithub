@@ -4,58 +4,60 @@ Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Or
 
 */
 
-.hljs-style-dark .hljs {
+.hljs-style-dark {
+.hljs {
   color: #ddd;
   background: #303030;
 }
 
-.hljs-style-dark .hljs-keyword,
-.hljs-style-dark .hljs-selector-tag,
-.hljs-style-dark .hljs-literal,
-.hljs-style-dark .hljs-section,
-.hljs-style-dark .hljs-link {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
   color: white;
 }
 
 
-.hljs-style-dark .hljs-subst {
+.hljs-subst {
   /* default */
 }
 
-.hljs-style-dark .hljs-string,
-.hljs-style-dark .hljs-title,
-.hljs-style-dark .hljs-name,
-.hljs-style-dark .hljs-type,
-.hljs-style-dark .hljs-attribute,
-.hljs-style-dark .hljs-symbol,
-.hljs-style-dark .hljs-bullet,
-.hljs-style-dark .hljs-built_in,
-.hljs-style-dark .hljs-addition,
-.hljs-style-dark .hljs-variable,
-.hljs-style-dark .hljs-template-tag,
-.hljs-style-dark .hljs-template-variable {
+.hljs-string,
+.hljs-title,
+.hljs-name,
+.hljs-type,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-built_in,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
   color: #d88;
 }
 
-.hljs-style-dark .hljs-comment,
-.hljs-style-dark .hljs-quote,
-.hljs-style-dark .hljs-deletion,
-.hljs-style-dark .hljs-meta {
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
   color: #979797;
 }
 
-.hljs-style-dark .hljs-keyword,
-.hljs-style-dark .hljs-selector-tag,
-.hljs-style-dark .hljs-literal,
-.hljs-style-dark .hljs-title,
-.hljs-style-dark .hljs-section,
-.hljs-style-dark .hljs-doctag,
-.hljs-style-dark .hljs-type,
-.hljs-style-dark .hljs-name,
-.hljs-style-dark .hljs-strong {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-dark .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
+}
 }

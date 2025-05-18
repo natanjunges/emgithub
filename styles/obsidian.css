@@ -3,81 +3,83 @@
  * ported by Alexander Marenin (http://github.com/ioncreature)
  */
 
-.hljs-style-obsidian .hljs {
+.hljs-style-obsidian {
+.hljs {
   color: #e0e2e4;
   background: #282b2e;
 }
 
-.hljs-style-obsidian .hljs-keyword,
-.hljs-style-obsidian .hljs-selector-tag,
-.hljs-style-obsidian .hljs-literal,
-.hljs-style-obsidian .hljs-selector-id {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-selector-id {
   color: #93c763;
 }
 
-.hljs-style-obsidian .hljs-number {
+.hljs-number {
   color: #ffcd22;
 }
 
-.hljs-style-obsidian .hljs-attribute {
+.hljs-attribute {
   color: #668bb0;
 }
 
-.hljs-style-obsidian .hljs-regexp,
-.hljs-style-obsidian .hljs-link {
+.hljs-regexp,
+.hljs-link {
   color: #d39745;
 }
 
-.hljs-style-obsidian .hljs-meta {
+.hljs-meta {
   color: #557182;
 }
 
-.hljs-style-obsidian .hljs-tag,
-.hljs-style-obsidian .hljs-name,
-.hljs-style-obsidian .hljs-bullet,
-.hljs-style-obsidian .hljs-subst,
-.hljs-style-obsidian .hljs-emphasis,
-.hljs-style-obsidian .hljs-type,
-.hljs-style-obsidian .hljs-built_in,
-.hljs-style-obsidian .hljs-selector-attr,
-.hljs-style-obsidian .hljs-selector-pseudo,
-.hljs-style-obsidian .hljs-addition,
-.hljs-style-obsidian .hljs-variable,
-.hljs-style-obsidian .hljs-template-tag,
-.hljs-style-obsidian .hljs-template-variable {
+.hljs-tag,
+.hljs-name,
+.hljs-bullet,
+.hljs-subst,
+.hljs-emphasis,
+.hljs-type,
+.hljs-built_in,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-tag,
+.hljs-template-variable {
   color: #8cbbad;
 }
 
-.hljs-style-obsidian .hljs-string,
-.hljs-style-obsidian .hljs-symbol {
+.hljs-string,
+.hljs-symbol {
   color: #ec7600;
 }
 
-.hljs-style-obsidian .hljs-comment,
-.hljs-style-obsidian .hljs-quote,
-.hljs-style-obsidian .hljs-deletion {
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion {
   color: #818e96;
 }
 
-.hljs-style-obsidian .hljs-selector-class {
+.hljs-selector-class {
   color: #A082BD
 }
 
-.hljs-style-obsidian .hljs-keyword,
-.hljs-style-obsidian .hljs-selector-tag,
-.hljs-style-obsidian .hljs-literal,
-.hljs-style-obsidian .hljs-doctag,
-.hljs-style-obsidian .hljs-title,
-.hljs-style-obsidian .hljs-section,
-.hljs-style-obsidian .hljs-type,
-.hljs-style-obsidian .hljs-name,
-.hljs-style-obsidian .hljs-strong {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-doctag,
+.hljs-title,
+.hljs-section,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
   font-weight: bold;
 }
 
-.hljs-style-obsidian .hljs-code,
-.hljs-style-obsidian .hljs-title.class_,
-.hljs-style-obsidian .hljs-class .hljs-title,
-.hljs-style-obsidian .hljs-section {
+.hljs-code,
+.hljs-title.class_,
+.hljs-class .hljs-title,
+.hljs-section {
   color: white;
+}
 }

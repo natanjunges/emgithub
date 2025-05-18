@@ -8,117 +8,119 @@
   Colors taken from GitHub's CSS
 */
 
-.hljs-style-github-dark-dimmed .hljs {
+.hljs-style-github-dark-dimmed {
+.hljs {
   color: #adbac7;
   background: #22272e;
 }
 
-.hljs-style-github-dark-dimmed .hljs-doctag,
-.hljs-style-github-dark-dimmed .hljs-keyword,
-.hljs-style-github-dark-dimmed .hljs-meta .hljs-keyword,
-.hljs-style-github-dark-dimmed .hljs-template-tag,
-.hljs-style-github-dark-dimmed .hljs-template-variable,
-.hljs-style-github-dark-dimmed .hljs-type,
-.hljs-style-github-dark-dimmed .hljs-variable.language_ {
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable.language_ {
   /* prettylights-syntax-keyword */
   color: #f47067;
 }
 
-.hljs-style-github-dark-dimmed .hljs-title,
-.hljs-style-github-dark-dimmed .hljs-title.class_,
-.hljs-style-github-dark-dimmed .hljs-title.class_.inherited__,
-.hljs-style-github-dark-dimmed .hljs-title.function_ {
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
   /* prettylights-syntax-entity */
   color: #dcbdfb;
 }
 
-.hljs-style-github-dark-dimmed .hljs-attr,
-.hljs-style-github-dark-dimmed .hljs-attribute,
-.hljs-style-github-dark-dimmed .hljs-literal,
-.hljs-style-github-dark-dimmed .hljs-meta,
-.hljs-style-github-dark-dimmed .hljs-number,
-.hljs-style-github-dark-dimmed .hljs-operator,
-.hljs-style-github-dark-dimmed .hljs-variable,
-.hljs-style-github-dark-dimmed .hljs-selector-attr,
-.hljs-style-github-dark-dimmed .hljs-selector-class,
-.hljs-style-github-dark-dimmed .hljs-selector-id {
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-variable,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id {
   /* prettylights-syntax-constant */
   color: #6cb6ff;
 }
 
-.hljs-style-github-dark-dimmed .hljs-regexp,
-.hljs-style-github-dark-dimmed .hljs-string,
-.hljs-style-github-dark-dimmed .hljs-meta .hljs-string {
+.hljs-regexp,
+.hljs-string,
+.hljs-meta .hljs-string {
   /* prettylights-syntax-string */
   color: #96d0ff;
 }
 
-.hljs-style-github-dark-dimmed .hljs-built_in,
-.hljs-style-github-dark-dimmed .hljs-symbol {
+.hljs-built_in,
+.hljs-symbol {
   /* prettylights-syntax-variable */
   color: #f69d50;
 }
 
-.hljs-style-github-dark-dimmed .hljs-comment,
-.hljs-style-github-dark-dimmed .hljs-code,
-.hljs-style-github-dark-dimmed .hljs-formula {
+.hljs-comment,
+.hljs-code,
+.hljs-formula {
   /* prettylights-syntax-comment */
   color: #768390;
 }
 
-.hljs-style-github-dark-dimmed .hljs-name,
-.hljs-style-github-dark-dimmed .hljs-quote,
-.hljs-style-github-dark-dimmed .hljs-selector-tag,
-.hljs-style-github-dark-dimmed .hljs-selector-pseudo {
+.hljs-name,
+.hljs-quote,
+.hljs-selector-tag,
+.hljs-selector-pseudo {
   /* prettylights-syntax-entity-tag */
   color: #8ddb8c;
 }
 
-.hljs-style-github-dark-dimmed .hljs-subst {
+.hljs-subst {
   /* prettylights-syntax-storage-modifier-import */
   color: #adbac7;
 }
 
-.hljs-style-github-dark-dimmed .hljs-section {
+.hljs-section {
   /* prettylights-syntax-markup-heading */
   color: #316dca;
   font-weight: bold;
 }
 
-.hljs-style-github-dark-dimmed .hljs-bullet {
+.hljs-bullet {
   /* prettylights-syntax-markup-list */
   color: #eac55f;
 }
 
-.hljs-style-github-dark-dimmed .hljs-emphasis {
+.hljs-emphasis {
   /* prettylights-syntax-markup-italic */
   color: #adbac7;
   font-style: italic;
 }
 
-.hljs-style-github-dark-dimmed .hljs-strong {
+.hljs-strong {
   /* prettylights-syntax-markup-bold */
   color: #adbac7;
   font-weight: bold;
 }
 
-.hljs-style-github-dark-dimmed .hljs-addition {
+.hljs-addition {
   /* prettylights-syntax-markup-inserted */
   color: #b4f1b4;
   background-color: #1b4721;
 }
 
-.hljs-style-github-dark-dimmed .hljs-deletion {
+.hljs-deletion {
   /* prettylights-syntax-markup-deleted */
   color: #ffd8d3;
   background-color: #78191b;
 }
 
-.hljs-style-github-dark-dimmed .hljs-char.escape_,
-.hljs-style-github-dark-dimmed .hljs-link,
-.hljs-style-github-dark-dimmed .hljs-params,
-.hljs-style-github-dark-dimmed .hljs-property,
-.hljs-style-github-dark-dimmed .hljs-punctuation,
-.hljs-style-github-dark-dimmed .hljs-tag {
+.hljs-char.escape_,
+.hljs-link,
+.hljs-params,
+.hljs-property,
+.hljs-punctuation,
+.hljs-tag {
   /* purposely ignored */
+}
 }

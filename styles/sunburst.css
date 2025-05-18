@@ -4,97 +4,99 @@ Sunburst-like style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
-.hljs-style-sunburst .hljs {
+.hljs-style-sunburst {
+.hljs {
   background: #000;
   color: #f8f8f8;
 }
 
-.hljs-style-sunburst .hljs-comment,
-.hljs-style-sunburst .hljs-quote {
+.hljs-comment,
+.hljs-quote {
   color: #aeaeae;
   font-style: italic;
 }
 
-.hljs-style-sunburst .hljs-keyword,
-.hljs-style-sunburst .hljs-selector-tag,
-.hljs-style-sunburst .hljs-type {
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type {
   color: #e28964;
 }
 
-.hljs-style-sunburst .hljs-string {
+.hljs-string {
   color: #65b042;
 }
 
-.hljs-style-sunburst .hljs-subst {
+.hljs-subst {
   color: #daefa3;
 }
 
-.hljs-style-sunburst .hljs-regexp,
-.hljs-style-sunburst .hljs-link {
+.hljs-regexp,
+.hljs-link {
   color: #e9c062;
 }
 
-.hljs-style-sunburst .hljs-title,
-.hljs-style-sunburst .hljs-section,
-.hljs-style-sunburst .hljs-tag,
-.hljs-style-sunburst .hljs-name {
+.hljs-title,
+.hljs-section,
+.hljs-tag,
+.hljs-name {
   color: #89bdff;
 }
 
-.hljs-style-sunburst .hljs-title.class_,
-.hljs-style-sunburst .hljs-class .hljs-title,
-.hljs-style-sunburst .hljs-doctag {
+.hljs-title.class_,
+.hljs-class .hljs-title,
+.hljs-doctag {
   text-decoration: underline;
 }
 
-.hljs-style-sunburst .hljs-symbol,
-.hljs-style-sunburst .hljs-bullet,
-.hljs-style-sunburst .hljs-number {
+.hljs-symbol,
+.hljs-bullet,
+.hljs-number {
   color: #3387cc;
 }
 
-.hljs-style-sunburst .hljs-params,
-.hljs-style-sunburst .hljs-variable,
-.hljs-style-sunburst .hljs-template-variable {
+.hljs-params,
+.hljs-variable,
+.hljs-template-variable {
   color: #3e87e3;
 }
 
-.hljs-style-sunburst .hljs-attribute {
+.hljs-attribute {
   color: #cda869;
 }
 
-.hljs-style-sunburst .hljs-meta {
+.hljs-meta {
   color: #8996a8;
 }
 
-.hljs-style-sunburst .hljs-formula {
+.hljs-formula {
   background-color: #0e2231;
   color: #f8f8f8;
   font-style: italic;
 }
 
-.hljs-style-sunburst .hljs-addition {
+.hljs-addition {
   background-color: #253b22;
   color: #f8f8f8;
 }
 
-.hljs-style-sunburst .hljs-deletion {
+.hljs-deletion {
   background-color: #420e09;
   color: #f8f8f8;
 }
 
-.hljs-style-sunburst .hljs-selector-class {
+.hljs-selector-class {
   color: #9b703f;
 }
 
-.hljs-style-sunburst .hljs-selector-id {
+.hljs-selector-id {
   color: #8b98ab;
 }
 
-.hljs-style-sunburst .hljs-emphasis {
+.hljs-emphasis {
   font-style: italic;
 }
 
-.hljs-style-sunburst .hljs-strong {
+.hljs-strong {
   font-weight: bold;
+}
 }
