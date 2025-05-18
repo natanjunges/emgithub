@@ -28,18 +28,18 @@
         const user = pathSplit[1];
         const repository = pathSplit[2];
         const branch = pathSplit[4];
-        const filePath = pathSplit.slice(5, pathSplit.length).join("/");
+        var filePath = pathSplit.slice(5, pathSplit.length).join("/");
         const directoryPath = pathSplit.slice(5, pathSplit.length - 1).join("/");
-        const rawFileURL = fetchFromJsDelivr
+        var rawFileURL = fetchFromJsDelivr
             ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${filePath}`
             : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${filePath}`;
-        const rawDirectoryURL = fetchFromJsDelivr
+        var rawDirectoryURL = fetchFromJsDelivr
             ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${directoryPath}/`
             : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${directoryPath}/`;
     } else {
-        const filePath = target.pathname;
-        const rawFileURL = target.href.substring(0, target.href.length - target.hash.length);
-        const rawDirectoryURL = rawFileURL.substring(0, rawFileURL.lastIndexOf("/"));
+        var filePath = target.pathname;
+        var rawFileURL = target.href.substring(0, target.href.length - target.hash.length);
+        var rawDirectoryURL = rawFileURL.substring(0, rawFileURL.lastIndexOf("/"));
     }
 
     const fileExtension = filePath.split('.').length > 1 ? filePath.split('.').pop() : 'txt';
