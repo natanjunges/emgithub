@@ -76,7 +76,7 @@
         <div></div>
     </div>
     <div class="source-embed-file source-embed-file-${isDarkStyle ? 'dark' : 'light'}" style="display:none;${showBorder ? '' : 'border:0'}">
-        <div class="file-data ${styleClassName}">
+        <div class="file-data ${styleClassName}${type === 'markdown' || type === 'ipynb' ? ` github-markdown-${isDarkStyle ? 'dark' : 'light'}` : ''}">
             ${type === 'code' ? `<div class="code-area">
                 ${showCopy ? `<a class="copy-btn copy-btn-${isDarkStyle ? 'dark' : 'light'}" href="javascript:void(0)">Copy</a>` : ''}
                 <pre><code class="${fileExtension} ${showLineNumbers ? '' : 'hide-line-numbers'}"></code></pre>
@@ -115,7 +115,8 @@
 
     if (type === 'markdown' || type === 'ipynb') {
         const loadMarked = typeof marked != "undefined" ? Promise.resolve() : loadScript('https://cdn.jsdelivr.net/npm/marked@4.0.18/marked.min.js');
-        loadLink(`https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@5.1.0/github-markdown-${isDarkStyle ? 'dark' : 'light'}.min.css`);
+        //https://cdn.jsdelivr.net/gh/sindresorhus/github-markdown-css@5.1.0/github-markdown-${isDarkStyle ? 'dark' : 'light'}.min.css
+        loadLink(`https://cdn.jsdelivr.net/gh/natanjunges/source-embed@main/github-markdown-${isDarkStyle ? 'dark' : 'light'}.min.css`);
         //https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css
         loadLink('https://cdn.jsdelivr.net/gh/natanjunges/source-embed@main/katex.min.css');
         promises.push(loadMarked);
