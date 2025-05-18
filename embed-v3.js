@@ -22,19 +22,27 @@
     const endLine = target.hash !== "" && lineSplit.length > 1 && lineSplit[1].replace("L", "") || startLine;
     const tabSize = target.searchParams.get("ts") || 8;
     const pathSplit = target.pathname.split("/");
-    const user = pathSplit[1];
-    const repository = pathSplit[2];
-    const branch = pathSplit[4];
-    const filePath = pathSplit.slice(5, pathSplit.length).join("/");
-    const directoryPath = pathSplit.slice(5, pathSplit.length - 1).join("/");
-    const fileExtension = filePath.split('.').length > 1 ? filePath.split('.').pop() : 'txt';
     const fileURL = target.href;
-    const rawFileURL = fetchFromJsDelivr
-        ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${filePath}`
-        : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${filePath}`;
-    const rawDirectoryURL = fetchFromJsDelivr
-        ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${directoryPath}/`
-        : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${directoryPath}/`;
+
+    if (target.hostname == "github.com") {
+        const user = pathSplit[1];
+        const repository = pathSplit[2];
+        const branch = pathSplit[4];
+        const filePath = pathSplit.slice(5, pathSplit.length).join("/");
+        const directoryPath = pathSplit.slice(5, pathSplit.length - 1).join("/");
+        const rawFileURL = fetchFromJsDelivr
+            ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${filePath}`
+            : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${filePath}`;
+        const rawDirectoryURL = fetchFromJsDelivr
+            ? `https://cdn.jsdelivr.net/gh/${user}/${repository}@${branch}/${directoryPath}/`
+            : `https://raw.githubusercontent.com/${user}/${repository}/${branch}/${directoryPath}/`;
+    } else {
+        const filePath = target.pathname;
+        const rawFileURL = target.href.substring(0, target.href.length - target.hash.length);
+        const rawDirectoryURL = rawFileURL.substring(0, rawFileURL.lastIndexOf("/"));
+    }
+
+    const fileExtension = filePath.split('.').length > 1 ? filePath.split('.').pop() : 'txt';
     const containerId = `id-${Math.random().toString(36).substring(2)}`;
     loadLink('https://cdn.jsdelivr.net/gh/natanjunges/source-embed@main/embed-v3.css');
     document.currentScript.insertAdjacentHTML(
