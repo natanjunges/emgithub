@@ -22,6 +22,16 @@ NOTE_2:	Color names provided in comments were derived using "Name that Color" on
 */
 
 .hljs-style-purebasic {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
 	background: #FFFFDF; /* Half and Half (approx.) */
 }

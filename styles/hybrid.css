@@ -5,6 +5,16 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 */
 
 .hljs-style-hybrid {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #1d1f21;
   color: #c5c8c6;

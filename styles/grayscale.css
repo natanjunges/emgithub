@@ -5,6 +5,16 @@ grayscale style (c) MY Sun <simonmysun@gmail.com>
 */
 
 .hljs-style-grayscale {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #333;
   background: #fff;

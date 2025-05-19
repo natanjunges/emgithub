@@ -5,6 +5,16 @@ XCode style (c) Angel Garcia <angelgarcia.mail@gmail.com>
 */
 
 .hljs-style-xcode {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #fff;
   color: black;

@@ -8,6 +8,16 @@ Music: Aphex Twin / Xtal
 */
 
 .hljs-style-magula {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background-color: #f4f4f4;
   color: black;

@@ -7,6 +7,16 @@
 */
 
 .hljs-style-felipec {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #dddde1;
   background: #1e1e22;

@@ -9,6 +9,16 @@
 */
 
 .hljs-style-github-dark-dimmed {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #adbac7;
   background: #22272e;

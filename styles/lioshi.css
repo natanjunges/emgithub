@@ -2,6 +2,16 @@
 /* Original theme - https://github.com/lioshi/vscode-lioshi-theme */
 
 .hljs-style-lioshi {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #303030;
   color: #c5c8c6;

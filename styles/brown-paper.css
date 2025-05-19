@@ -5,6 +5,16 @@ Brown Paper style from goldblog.com.ua (c) Zaripov Yura <yur4ik7@ukr.net>
 */
 
 .hljs-style-brown-paper {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #363c69;
   background:#b7a68e url(https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/styles/brown-papersq.png);

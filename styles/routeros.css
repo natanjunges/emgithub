@@ -5,6 +5,16 @@
 */
 
 .hljs-style-routeros {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #444;
   background: #F0F0F0;

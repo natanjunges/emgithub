@@ -5,6 +5,16 @@
  */
 
 .hljs-style-panda-syntax-dark {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #e6e6e6;
   background: #2a2c2d;

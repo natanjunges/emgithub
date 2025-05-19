@@ -7,6 +7,16 @@
  */
 
 .hljs-style-shades-of-purple {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #2d2b57;
   color: #e3dfff;

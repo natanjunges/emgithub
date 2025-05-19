@@ -5,6 +5,16 @@ Gradient Dark (c) Samia Ali <samiaab1990@gmail.com>
 */
 
 .hljs-style-gradient-dark {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs
 {
 background-color: #652487;

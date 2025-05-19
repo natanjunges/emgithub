@@ -5,6 +5,16 @@ Intellij-light style (c) Pegasis <me@pegasis.site>
 */
 
 .hljs-style-intellij-light {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #000;
   background: #fff;

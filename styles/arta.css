@@ -4,6 +4,16 @@ Author: pumbur <pumbur@pumbur.net>
 */
 
 .hljs-style-arta {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #222;
   color: #aaa;

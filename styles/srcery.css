@@ -8,6 +8,16 @@ Date: 2021-04-13
 */
 
 .hljs-style-srcery {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #1C1B19; /* Black */
   color: #FCE8C3; /* Bright White */

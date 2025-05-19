@@ -5,6 +5,16 @@ Google Code style (c) Aahan Krish <geekpanth3r@gmail.com>
 */
 
 .hljs-style-googlecode {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: white;
   color: black;

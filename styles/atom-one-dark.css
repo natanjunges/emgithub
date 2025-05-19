@@ -19,6 +19,16 @@ hue-6-2: #e6c07b
 */
 
 .hljs-style-atom-one-dark {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #abb2bf;
   background: #282c34;

@@ -7,6 +7,16 @@
 */
 
 .hljs-style-a11y-dark {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #2b2b2b;
   color: #f8f8f2;

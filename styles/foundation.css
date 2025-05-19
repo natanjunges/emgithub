@@ -7,6 +7,16 @@ Date: 2013-04-02
 */
 
 .hljs-style-foundation {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #eee;
   color: black;

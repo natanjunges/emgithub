@@ -4,6 +4,16 @@ Author: Pedro Oliveira <kanytu@gmail . com>
 */
 
 .hljs-style-androidstudio {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #a9b7c6;
   background: #282b2e;

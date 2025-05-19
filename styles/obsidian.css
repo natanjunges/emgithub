@@ -4,6 +4,16 @@
  */
 
 .hljs-style-obsidian {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #e0e2e4;
   background: #282b2e;

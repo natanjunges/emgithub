@@ -4,6 +4,16 @@
  */
 
 .hljs-style-vs2015 {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #1E1E1E;
   color: #DCDCDC;

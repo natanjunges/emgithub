@@ -5,6 +5,16 @@ Intellij Idea-like styling (c) Vasily Polovnyov <vast@whiteants.net>
 */
 
 .hljs-style-idea {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #000;
   background: #fff;

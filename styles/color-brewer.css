@@ -7,6 +7,16 @@ Ported by Fabrício Tavares de Oliveira
 */
 
 .hljs-style-color-brewer {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #000;
   background: #fff;

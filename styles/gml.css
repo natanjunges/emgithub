@@ -5,6 +5,16 @@ GML Theme - Meseta <meseta@gmail.com>
 */
 
 .hljs-style-gml {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   background: #222222;
   color: #C0C0C0;

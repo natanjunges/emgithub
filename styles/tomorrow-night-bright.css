@@ -3,6 +3,16 @@
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 
 .hljs-style-tomorrow-night-bright {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 /* Tomorrow Comment */
 .hljs-comment,
 .hljs-quote {

@@ -3,6 +3,16 @@ Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine
 */
 
 .hljs-style-docco {
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+
+code.hljs {
+  padding: 3px 5px;
+}
+
 .hljs {
   color: #000;
   background: #f8f8ff;
