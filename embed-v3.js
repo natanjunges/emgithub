@@ -50,8 +50,7 @@
         `
 
 <style>
-    /* use where() for backward compatibility */
-    :where(#${containerId} .source-embed-file .code-area pre) {
+    #${containerId} .source-embed-file .code-area pre {
         tab-size: ${tabSize};
     }
 

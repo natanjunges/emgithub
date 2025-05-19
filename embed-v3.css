@@ -183,6 +183,9 @@
 
 .source-embed-file .code-area pre code.hljs {
     padding: 0.8em;
+}
+
+:where(.source-embed-file .code-area pre code.hljs) {
     box-sizing: border-box;
 }
 
