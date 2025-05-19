@@ -24,7 +24,7 @@
     const pathSplit = target.pathname.split("/");
     const fileURL = target.href;
 
-    if (target.hostname == "github.com") {
+    if (target.hostname === "github.com") {
         const user = pathSplit[1];
         const repository = pathSplit[2];
         const branch = pathSplit[4];
