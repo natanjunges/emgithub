@@ -18,9 +18,9 @@
         return Number.isNaN(parsedValue) ? undefined : parsedValue;
     })();
     const lineSplit = target.hash.split("-");
-    const startLine = target.hash !== "" && lineSplit[0].replace("#L", "") || -1;
-    const endLine = target.hash !== "" && lineSplit.length > 1 && lineSplit[1].replace("L", "") || startLine;
-    const tabSize = target.searchParams.get("ts") || 8;
+    const startLine = target.hash !== "" && Number.parseInt(lineSplit[0].replace("#L", ""), 10) || -1;
+    const endLine = target.hash !== "" && lineSplit.length > 1 && Number.parseInt(lineSplit[1].replace("L", "")) || startLine;
+    const tabSize = Number.parseInt(target.searchParams.get("ts"), 10) || 8;
     const pathSplit = target.pathname.split("/");
     const fileURL = target.href;
 
@@ -193,7 +193,7 @@
             hljs.highlightElement(codeTag);
             hljs.lineNumbersBlock(codeTag, {
                 singleLine: true,
-                startFrom: (startLine > 0 && fetchSuccess) ? Number.parseInt(startLine) : 1
+                startFrom: (startLine > 0 && fetchSuccess) ? startLine : 1
             });
         } else if (type === 'markdown') {
             targetDiv.querySelector(".html-area").innerHTML = fetchSuccess ? marked.parse(result[0].value, { baseUrl: rawDirectoryURL }) : result[0].reason;
